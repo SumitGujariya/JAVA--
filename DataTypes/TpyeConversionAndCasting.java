@@ -31,8 +31,6 @@ public class TpyeConversionAndCasting {
 
 
 
-
-
 //            ***********     Float    ***********
 /* 
  If you try to convert the value into it. you loose some value.
