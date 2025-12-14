@@ -1,3 +1,4 @@
+package DecisionMakingStatementInJava;
 // In java the (IF ELSEIF AND ELSE) condition are help you to check the multiple condition.
 // The IF condition you to access to check the first condition to check the, if you want chech more conditon with the first conditon.
 // You use ELSE IF to check multiple condition. 

@@ -1,4 +1,7 @@
+package DecisionMakingStatementInJava;
 /*
+The switch case in Java works like an if-else ladder, i.e., multiple conditions can be checked at once.
+Switch is provided with an expression that can be a constant or literal expression that can be evaluated.
 The syntax of the switch statement is as follows:
 
 switch(expression)
@@ -18,32 +21,33 @@ switch(expression)
 */
 
 public class Switch {
-    public static void main(String[] args) {
-      int WeekDays = 6;
+  public static void main(String[] args) {
+    int WeekDays = 9;
 
-      switch(WeekDays)
-      {
-        case 1:
+    switch (WeekDays) {
+      case 1: // The break statement is commonly used to exit a switch statement once a matching case has been executed
         System.out.println("Monday");
         break;
-        case 2:
+      case 2:
         System.out.println("Tuesday");
         break;
-        case 3:
+      case 3:
         System.out.println("Wednesday");
         break;
-        case 4:
+      case 4:
         System.out.println("Thursday");
         break;
-        case 5:
+      case 5:
         System.out.println("Friday");
         break;
-        case 6:
+      case 6:
         System.out.println("Saturday");
         break;
-        case 7:
+      case 7:
         System.out.println("Sunday");
         break;
-      }
+        default: // This default you use when any value not get match than you set default value to show a messaage.
+        System.out.println("Enter a valid week day");
     }
+  }
 }
