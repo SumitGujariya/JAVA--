@@ -31,7 +31,7 @@ public class DoWhileLoop {
         // Condition: run the loop as long as i is less than or equal to 4.
         // Since i = 1, the condition is true, so the loop starts.
         while (i<=4) { 
-            System.out.println("Hii " + i);
+            System.out.println("Hii " + i); // This + operator is sign of concetanation of the two output:-
 
             // Declares another integer variable j.
             // Initializes it to 0.
