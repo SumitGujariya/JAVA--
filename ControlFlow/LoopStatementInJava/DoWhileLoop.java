@@ -1,62 +1,47 @@
 /*
-While Loop Syntax:
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true. 
+Then it will repeat the loop as long as the condition is true.
+In the while loop chapter, we saw that if the condition is false at the beginning, the loop never runs at all.
+The do/while loop is different: it will always run the code block at least once, even if the condition is false from the start.
+In the example below, the variable i starts at 10, so i < 5 is false immediately. Still, the loop runs once before checking the condition:
+
+
+Do-while Loop Syntax:
 <iterator-initialization>
 
-while (<condition>) {
+do {
     // Block of code to execute.
 
     <update iterator>
-}
+} (<condition>)
 
 package LoopingStatements;
 
-public class WhileLoop {
-    public static void main(String[] args) {
-        int iterator = 0;
-        while (iterator <= 20) {
-            System.out.println(iterator);
-            iterator++;
-        }
-    }
-}
-*/
-
-package LoopStatementInJava;
-
 public class DoWhileLoop {
     public static void main(String[] args) {
-        int i = 1;
-
-        // Starts a while loop.
-        // Condition: run the loop as long as i is less than or equal to 4.
-        // Since i = 1, the condition is true, so the loop starts.
-        while (i<=4) { 
-            System.out.println("Hii " + i); // This + operator is sign of concetanation of the two output:-
-
-            // Declares another integer variable j.
-            // Initializes it to 0.
-            // This variable controls the inner while loop.
-            // IMPORTANT: j is reset to 0 every time the outer loop runs.
-            // This is calles nested loop in while loop, Because its written in inside the loop.
-            int j = 0; 
-            while (j<=3) {  // Starts the inner while loop, Runs as long as j is less than or equal to 3.
-                System.out.println("Hello compiler");
-                // This is help to run your code at given condition. 
-                // Increments j by 1.Prevents an infinite loop.j values will be: 0 → 1 → 2 → 3 → 4
-                j++; 
-            }
-            // Increments i by 1.
-            // Moves the outer loop toward termination.
-            i++; 
-        }
+        int iterator = 0;
+        do {
+            System.out.println(iterator);
+            iterator++;
+        } while (iterator <= 20);
     }
 }
-
-/*
-How many times does everything run?
-Outer loop (i)
-Runs 4 times (i = 1 to 4)
-Inner loop (j)
-Runs 4 times for each outer loop
-Total inner executions = 4 × 4 = 16
 */
+
+
+// Using Example.
+package LoopStatementInJava;
+
+// The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
+public class DoWhileLoop {
+    public static void main(String[] args) {
+        int i = 0;
+
+        do {
+            System.out.println("i is " + i);
+            // Do not forget to increase the variable used in the condition (i++), otherwise the loop will never end!
+            i++;
+        } 
+        while (i<11); // The semicolon ; after the while condition is required!
+    }
+}
