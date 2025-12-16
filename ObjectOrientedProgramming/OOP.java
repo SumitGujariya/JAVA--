@@ -36,7 +36,7 @@ public class OOP {
         System.out.println("Storage: " + acer.storage);
         System.out.println();
 
-        
+    
         // this -> asus
         Computers asus = new Computers (
             "Asus", 
