@@ -10,3 +10,6 @@ class OOPs {
 
     }
 }
+
+
+public
