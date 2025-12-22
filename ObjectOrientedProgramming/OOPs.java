@@ -27,9 +27,9 @@ class Cars {  // This is we calles class
     
     // This is first method to call the method.
     // You called a properties with the help of function.
-    public void running() {
-        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
-    }
+    // public void running() {
+    //     System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
+    // }
 
     // This is second method.
     public void pappujii(){
@@ -61,7 +61,7 @@ public class OOPS {
         cr2.releas = 1996 ;
         
         // With the help of (.dot) you can call your function.
-        cr1.running();
+        // cr1.running();
         cr1.pappujii();
         cr2.pappijii();
 
