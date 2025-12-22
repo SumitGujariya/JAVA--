@@ -27,18 +27,33 @@ class Cars {  // This is we calles class
     
     // This is first method to call the method.
     // You called a properties with the help of function.
-    // public void running() {
-    //     System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
-    // }
+    public void running() {
+        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
+    }
 
     // This is second method.
-    public void pappujii(){
-        System.out.println(this.brand + colors + releas) ; // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
-    }
+    // public void pappujii(){
+    //     System.out.println(this.brand + colors + releas) ; // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
+    // }
 
-    public void pappijii(){
-        System.out.println("this car is also running as fast as you think are " + colors + brand + releas);
+    // public void pappijii(){
+    //     System.out.println("this car is also running as fast as you think are " + colors + brand + releas);
+    // }
+
+    // NON parameter constructor.
+    // If we not wirte any constuctor then java make by default contructor.
+    // Cars() {
+    //     System.out.println("this is non paremeter constructor");
+    // }
+    
+    // This is parameter constructor.
+    Cars(String colors,String brand, int releas) {
+        this.colors = colors;
+        this.brand = brand;
+        this.releas = releas;
+
     }
+    //
 
 }
 
@@ -48,22 +63,22 @@ public class OOPS {
     public static void main(String args[]) {
         // Remember the name of the datatype is same as your class name (Ex:- Cars).
         // You always write your object of class is inside the function.
-        Cars cr1 = new Cars();
+        Cars cr1 = new Cars("Black" , "Toyota", 1999);  // This is constructor (Cars();). It's always same name as class. Contructor never return anything. For object the constructor calls only one time. we calles constructor only one time when object build.
         // You always use there properties and access with the help of (.dot)
-        cr1.colors = "Black ";
-        cr1.brand = "Toyota ";
-        cr1.releas = 1995 ;
+        // cr1.colors = "Black ";
+        // cr1.brand = "Toyota ";
+        // cr1.releas = 1995 ;
         
         // You always use there properties and access with the help of (.dot)
-        Cars cr2 = new Cars();
-        cr2.colors = "White ";
-        cr2.brand = "Mustang ";
-        cr2.releas = 1996 ;
+        // Cars cr2 = new Cars();
+        // cr2.colors = "White ";
+        // cr2.brand = "Mustang ";
+        // cr2.releas = 1996 ;
         
         // With the help of (.dot) you can call your function.
-        // cr1.running();
-        cr1.pappujii();
-        cr2.pappijii();
+        cr1.running();
+        // cr1.pappujii();
+        // cr2.pappijii();
 
 
     }
