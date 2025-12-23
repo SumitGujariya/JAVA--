@@ -3,7 +3,7 @@ package ObjectOrientedProgramming.OopsConcept;
 // /*
 // OBJECT ORIENTED PROGRAMMING SYSTEMS 
 // JAVA 
- 
+
 // Object-Oriented Programming is  a  methodology  or paradigm to design a 
 // program using classes and objects. It simplifies the software development 
 // and maintenance by providing some concepts defined below :  
@@ -20,20 +20,24 @@ package ObjectOrientedProgramming.OopsConcept;
 
 // First Example *****************************************
 // First you write a class and define his properties inside the class
-class Cars {  // This is we calles class
+class Cars { // This is we calles class
     String colors; // this is the properties of this class
-    String brand; 
+    String brand;
     int releas;
-    
+
     // This is first method to call the method.
     // You called a properties with the help of function.
     public void running() {
-        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
+        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a
+                                                                                                   // multiple
+                                                                                                   // properties in
+                                                                                                   // single line.
     }
 
     // This is second method.
     public void pappujii() {
-        System.out.println(this.colors) ; // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
+        System.out.println(this.colors); // You also called a your properties with the help of (this.method) whatever
+                                         // your method name is depend on you how you descibe them.
         System.out.println(this.brand);
         System.out.println(this.releas);
     }
@@ -46,7 +50,7 @@ class Cars {  // This is we calles class
 
 // Note You always write a main function inside the public class.
 // This class name is define your .java file name.
-public class Oops { 
+public class Oops {
     public static void main(String args[]) {
         // Remember the name of the datatype is same as your class name (Ex:- Cars).
         // You always write your object of class is inside the function.
@@ -54,51 +58,47 @@ public class Oops {
         // You always use there properties and access with the help of (.dot)
         cr1.colors = "Black ";
         cr1.brand = "Toyota ";
-        cr1.releas = 1995 ;
-        
+        cr1.releas = 1995;
+
         // You always use there properties and access with the help of (.dot)
         Cars cr2 = new Cars();
         cr2.colors = "White ";
         cr2.brand = "Mustang ";
-        cr2.releas = 1996 ;
-        
+        cr2.releas = 1996;
+
         // With the help of (.dot) you can call your function.
         // cr1.running();
         cr1.pappujii();
         cr2.pappijii();
 
-
     }
 }
 
-
-
-
-//  Second Example *************************************************
+// Second Example *************************************************
 /*
-// Main class: From where the execution of code starts.
-class Student {
-    String name;
-    int age;
-
-    public void details() {
-        System.out.println("This details of this student name is " + this.name);
-        System.out.println("This details of this student is age is " + this.age);
-
-    }
-
-}
-
-public class OOPS {
-    public static void main(String args[]) {
-        Student sd = new Student();
-        sd.name = "sumit";
-        sd.age = 21;
-
-        sd.details();
-    }
-}
-
-Note:- In java we have garbage collections.
-
-*/
+ * // Main class: From where the execution of code starts.
+ * class Student {
+ * String name;
+ * int age;
+ * 
+ * public void details() {
+ * System.out.println("This details of this student name is " + this.name);
+ * System.out.println("This details of this student is age is " + this.age);
+ * 
+ * }
+ * 
+ * }
+ * 
+ * public class OOPS {
+ * public static void main(String args[]) {
+ * Student sd = new Student();
+ * sd.name = "sumit";
+ * sd.age = 21;
+ * 
+ * sd.details();
+ * }
+ * }
+ * 
+ * Note:- In java we have garbage collections.
+ * 
+ */
