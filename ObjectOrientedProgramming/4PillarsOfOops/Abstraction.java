@@ -53,8 +53,8 @@ class Murgi extends Animal {
 public class Abstraction {
     public static void main(String[] args) {
         Horse hr = new Horse();
-        // hr.walk();
-        // hr.eats();
+        hr.walk();
+        hr.eats();
 
         // This will not work its just a blueprint like you say it just a imagination
         // Animal an = new Animal();
