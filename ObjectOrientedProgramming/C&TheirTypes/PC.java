@@ -12,15 +12,17 @@ class Cars {
         System.out.println(this.releas);
 
     }
+
+    Cars(String colors, String brand, int releas) {
+        this.colors = colors;
+        this.brand = brand;
+        this.releas = releas;
+    }
 }
 
 public class PC {
     public static void main(String[] args) {
-
-        Cars c1 = new Cars();
-        c1.colors = "Pink";
-        c1.brand = "Swift";
-        c1.releas = 1998;
+        Cars c1 = new Cars("Black", "Supra", 1999);
 
         c1.printDetails();
     }

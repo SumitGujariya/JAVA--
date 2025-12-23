@@ -32,11 +32,13 @@ class Cars {  // This is we calles class
     }
 
     // This is second method.
-    public void pappujii(){
-        System.out.println(this.brand + colors + releas) ; // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
+    public void pappujii() {
+        System.out.println(this.colors) ; // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
+        System.out.println(this.brand);
+        System.out.println(this.releas);
     }
 
-    public void pappijii(){
+    public void pappijii() {
         System.out.println("this car is also running as fast as you think are " + colors + brand + releas);
     }
 
@@ -44,7 +46,7 @@ class Cars {  // This is we calles class
 
 // Note You always write a main function inside the public class.
 // This class name is define your .java file name.
-public class OOPS { 
+public class Oops { 
     public static void main(String args[]) {
         // Remember the name of the datatype is same as your class name (Ex:- Cars).
         // You always write your object of class is inside the function.
@@ -96,5 +98,7 @@ public class OOPS {
         sd.details();
     }
 }
+
+Note:- In java we have garbage collections.
 
 */
