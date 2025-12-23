@@ -11,44 +11,41 @@ Data binding : Data binding is a process of binding the application UI and busin
 // An abstract class must be declared with an abstract keyword.
 abstract class Animal {
     /*
-        This is the example of contructor.
-        Animal() {
-            System.out.println("Constructor of the Animal");
-        }
-    */
+     * This is the example of contructor.
+     * Animal() {
+     * System.out.println("Constructor of the Animal");
+     * }
+     */
     abstract void walk(); // This is a abstract method.
+
     public void eats() { // This one is non-abstract method.
-        System.out.println("Animal can eats");  // Now all the (Sub) class inherit the method of (Base) class.
+        System.out.println("Animal can eats"); // Now all the (Sub) class inherit the method of (Base) class.
     }
 }
 
-
 class Horse extends Animal {
-/*
-    This is the example of contructor.
-    Horse() {
-        System.out.println("Constructor of the Horse");
-    }
-*/
+    /*
+     * This is the example of contructor.
+     * Horse() {
+     * System.out.println("Constructor of the Horse");
+     * }
+     */
     public void walk() {
         System.out.println("Walks on 4 legs");
     }
 }
 
-
 class Murgi extends Animal {
-/*
-    Murgi() {
-        System.out.println("Constructor of the Murgi");
-    }
-*/
+    /*
+     * Murgi() {
+     * System.out.println("Constructor of the Murgi");
+     * }
+     */
     public void walk() {
 
         System.out.println("Murgi walks on 2 legs");
     }
 }
-
-
 
 public class Abstraction {
     public static void main(String[] args) {
