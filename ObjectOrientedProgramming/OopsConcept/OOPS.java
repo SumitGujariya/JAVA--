@@ -102,3 +102,26 @@ public class Oops {
  * Note:- In java we have garbage collections.
  * 
  */
+
+
+/*
+// Another example for better understanding.
+class Computer {
+    public int add(int n1, int n2) {
+        return n1 + n2;
+    }
+    public int add(int n1, int n2, int n3){
+        return n1 + n2 + n3;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Computer com = new Computer();
+        int in1 = com.add(3, 97);
+        int in2 = com.add(3, 4, 5);
+        System.out.println(in1);
+        System.out.println(in2);
+    }
+}
+*/

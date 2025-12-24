@@ -10,13 +10,11 @@ class Student {
     }
 }
 
-
-
 public class Static {
     public static void main(String[] args) {
         Student.school = "SUGMN"; // You can access static properties direct with the help of their (Class) name.
         Student std = new Student(); // this one for there name properties.
         std.name = "Sumit";
-        System.out.println(std.school);
+        System.out.println(std.name);
     }
 }
