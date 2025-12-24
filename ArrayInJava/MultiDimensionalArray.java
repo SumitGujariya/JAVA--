@@ -1,5 +1,4 @@
 package ArrayInJava;
-import java.util.Random;
 
 
 public class MultiDimensionalArray {
