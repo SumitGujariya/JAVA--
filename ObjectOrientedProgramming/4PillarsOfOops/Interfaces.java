@@ -5,7 +5,7 @@ interface Animal {
     int eyes = 2; // If you define the properties so define the fix number of properties you can
                   // not change it's follows by the animal classes.
 
-    void walk(); // Here's if you not it okk, it's still working.
+    void walk(); // Here's if you not write the public its use default it okk, it's still working.
 
 }
 

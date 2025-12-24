@@ -1,5 +1,6 @@
 // package ObjectOrientedProgramming.4PillarsOfOops;
 
+// Inheritance 
 class shape {
     String colors;
 }
@@ -20,13 +21,13 @@ public class Inheritance {
 /*
  * // This is singel level inheritance.
  * 
- * class Shape { // this is calles Base class or parent class
+ * class Shape { // this is called Base class or parent class
  * public void area() {
  * System.out.println("Define the area");
  * }
  * }
  * 
- * // We inherit the properties if the base class with the help of (Extends
+ * // We inherit the properties of the base class with the help of (Extends
  * keyword).
  * class Triangle extends Shape { // this is derived class or child class
  * public void area(int l, int h) {
@@ -45,13 +46,13 @@ public class Inheritance {
 /*
  * // This is multi level inheritance.
  * 
- * class Shape { // this is calles Base class or parent class.
+ * class Shape { // this is called Base class or parent class.
  * public void area() {
  * System.out.println("Define the area");
  * }
  * }
  * 
- * // We inherit the properties if the base class with the help of (Extends
+ * // We inherit the properties of the base class with the help of (Extends
  * keyword).
  * class Triangle extends Shape { // this is derived class or child class.
  * public void area(int l, int h) {
@@ -72,7 +73,7 @@ public class Inheritance {
  * 
  * }
  * }
- */
+ 
 
 // This is Hierarchial inheritance.
 

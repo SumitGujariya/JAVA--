@@ -31,7 +31,7 @@ class Horse extends Animal {
      * }
      */
     public void walk() {
-        System.out.println("Walks on 4 legs");
+        System.out.println("Horse walks on 4 legs");
     }
 }
 
@@ -52,6 +52,10 @@ public class Abstraction {
         Horse hr = new Horse();
         hr.walk();
         hr.eats();
+
+        Murgi mr = new Murgi();
+        mr.walk();
+        mr.eats();
 
         // This will not work its just a blueprint like you say it just a imagination
         // Animal an = new Animal();

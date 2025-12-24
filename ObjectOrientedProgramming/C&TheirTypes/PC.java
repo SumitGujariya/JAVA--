@@ -1,6 +1,6 @@
 // package ObjectOrientedProgramming.OopsConcept;
 
-// This is parameter constructor.
+// This is parameter constructor. where we pass the parameter inside the function.
 class Cars {
     String colors;
     String brand;
@@ -13,7 +13,7 @@ class Cars {
 
     }
 
-    Cars(String colors, String brand, int releas) {
+    Cars(String colors, String brand, int releas) { // this is the PC we talked about.
         this.colors = colors;
         this.brand = brand;
         this.releas = releas;
@@ -22,7 +22,7 @@ class Cars {
 
 public class PC {
     public static void main(String[] args) {
-        Cars c1 = new Cars("Black", "Supra", 1999);
+        Cars c1 = new Cars("Black", "Supra", 1999); // Here's we pass the value of our properties.
 
         c1.printDetails();
     }

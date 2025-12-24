@@ -12,7 +12,7 @@ package ObjectOrientedProgramming.OopsConcept;
 // example, Human being is a class. The body parts of a human being are its 
 // properties, and the actions performed by the body parts are known as 
 // functions. The class does not occupy any memory space till the time an 
-// object is instantiated.  
+// object is instantiated.
 // Object is a run-time entity. It is an instance of the class. An object can 
 // represent a person, place or any other item. An object can operate on 
 // both data members and member functions. 
@@ -20,12 +20,12 @@ package ObjectOrientedProgramming.OopsConcept;
 
 // First Example *****************************************
 // First you write a class and define his properties inside the class
-class Cars { // This is we calles class
+class Cars { // This is we called class
     String colors; // this is the properties of this class
     String brand;
     int releas;
 
-    // This is first method to call the method.
+    // This is first method to call the functions.
     // You called a properties with the help of function.
     public void running() {
         System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a

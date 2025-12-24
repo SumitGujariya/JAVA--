@@ -2,7 +2,7 @@
 Encapsulation is the process of combining data and functions into a single unit called class. 
 In Encapsulation, the data is not accessed directly; it is accessed through the functions present inside the class. 
 In simpler words, attributes of the class are kept private and public getter and setter methods are provided to 
-manipulate these attributes. Thus, encapsulation makes the concept of data 
+manipulate these attributes. This encapsulation makes the concept of data 
 hiding possible.(Data hiding: a language feature to restrict access to members of 
 an object, reducing the negative effect due to dependencies. e.g. "protected", 
 "private" feature in Java).  
@@ -10,7 +10,7 @@ an object, reducing the negative effect due to dependencies. e.g. "protected",
 class Account {
     public String name; // This is public any one can access.
     protected String email; // This is protectes it's only access whenever the package import.it's only
-                            // access by the by another files of their sub class.
+                            // access by the by another files of their sub class. if we define the package name.
     private String password; // This is private no one can access untill for access this you need to define
                              // fuction with the help of getters and setters.
     // Default :- we have default type also it set the value by default.
@@ -21,13 +21,13 @@ class Account {
     }
 
     // public String getPassword() {
-    // setPassword(randomPass);
-    // return this.password;
+    // setPassword(randomPass); // it set the random password.
+    // return this.password; // and return this.
     // }
 
     // You make private your setPassword also, after that no one can access the
     // password (Ex in line num (14)).
-    public void setPassword(String pass) { // Here's you set your password.
+    public void setPassword(String pass) { // Here's you set your password. and also pass the parameteres inside the ().
         this.password = pass; // Here's you access the password with the help of set parameters.
     }
 }

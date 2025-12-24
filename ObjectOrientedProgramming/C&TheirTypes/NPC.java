@@ -1,7 +1,7 @@
 // package ObjectOrientedProgramming.OopsConcept;
 
 // NON parameter constructor.
-// If we not wirte any constuctor then java make by default contructor.
+// If we not wirte any constuctor then java make it default contructor.
 // In this (NPC) make their own constructor.
 class Cars {
     String colors;
@@ -12,8 +12,8 @@ class Cars {
         System.out.println("this car is running as fast as you think " + colors + brand + releas);
     }
 
-    Cars() {
-        System.out.println("this is non paremeter constructor");
+    Cars() { // this is NPC we talked about. first compiler print this than print the other value.
+        System.out.println("this is non parameter constructor");
     }
 
 }
