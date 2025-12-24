@@ -3,8 +3,8 @@ package ArrayInJava;
 public class Array {
 	public static void main(String[] args) {
 //      int nums[]= {3,7,2,4};
-//		nums[1]=6;
-//		System.out.println(nums[1]);
+//		nums[1]=6; // With the help you change the value inside the array.
+//		System.out.println(nums[1]); // check the change the value.
 		
 		int nums[]=new int[4];
 		nums[0]=4;
@@ -12,11 +12,13 @@ public class Array {
 		nums[2]=3;
 		nums[3]=9;
 		
+		// for print all the value with the help of (indexing).
 //		System.out.println(nums[0]);
 //		System.out.println(nums[1]);
 //		System.out.println(nums[2]);
 //		System.out.println(nums[3]);
 		
+		// print all the value with the help of (for loop).
 		for (int i=0;i<4;i++) {
 			System.out.println(nums[i]);
 		}

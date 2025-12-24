@@ -2,10 +2,10 @@ package MethodsInJava;
 
 /**
 class Calculator{
-	int a;
+	int a; // This one is instant variables.
 	public int add(int n1, int n2)
 	{
-		int r=n1+n2;
+		int r=n1+n2; // This is we called local variables.
 		return r;
 	}
 }
@@ -40,7 +40,7 @@ class Computer
 
 public class Method {
 	public static void main(String[] args) {
-		Computer obj=new Computer();
+		Computer obj=new Computer(); // Here's (obj) is refrence variables.
 		obj.playMusic();
 		String src=obj.getMeAPen(10);
 		System.out.println(src);
