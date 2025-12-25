@@ -1,7 +1,4 @@
 package ArrayInJava;
-
-import java.util.Random;
-
 public class JaggedAnd3dArray {
 	public static void main(String[] args) {
 		int nums[][] = new int[3][]; // jagged
