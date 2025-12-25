@@ -8,7 +8,6 @@ interface Animal {
     void walk(); // Here's if you not write the public its use default it okk, it's still working.
 
 }
-
 // This is the example of the multiple inheritance.
 interface Herbivore {
 
