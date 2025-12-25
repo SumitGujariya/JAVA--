@@ -3,29 +3,28 @@ package ArrayInJava;
 
 public class MultiDimensionalArray {
 	public static void main(String[] args) {
-		int nums[][]=new int [3][4]; 
+		int nums[][] = new int [3][4]; 
 
 
 
 		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 4; j++) {
+			for (int j = 0; j < 4; j++) { // Here we use nested loop.
 				nums[i][j] = (int) (Math.random() *10); // Generate a random number between 0 and 9 and store it in the 2-D array nums at position [i][j].
-				// nums[i][j] = new Random().nextInt(10); // both are ddoing same thing to print the number between 1 tp 9 and converting into the double to int.
+				// nums[i][j] = new Random().nextInt(10); // both are doing same thing to print the number between 1 tp 9 and converting into the double to int.
 			}
 		}
 
+		// for the output you want to write this for loop.
 		for (int i = 0; i < 3; i++) {
-
 			for (int j = 0; j < 4; j++) {
-
-				System.out.print(nums[i][j] + " ");
-			}
+				System.out.print(nums[i][j] + " "); // this ( + " ") we using to give a space into the array.
+			} 
 			System.out.println();
 		}
 		
 		// This will is enhanced (for loop).
-		for(int n[]:nums) {
-			for(int m:n) {
+		for(int n[] : nums) {
+			for(int m : n) {
 
 				System.out.print(m+" ");
 			}

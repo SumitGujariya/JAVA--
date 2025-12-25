@@ -3,7 +3,7 @@ package ArrayInJava;
 public class DrawbackOfArrau {
 	public static void main(String[] args) 
 	{
-		int nums[]=new int[4];
+		int nums[] = new int[2];
         System.out.println(nums);
 	}
 }
