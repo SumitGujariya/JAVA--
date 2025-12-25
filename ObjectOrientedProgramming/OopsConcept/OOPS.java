@@ -125,3 +125,58 @@ public class Test {
     }
 }
 */
+
+
+/*
+// This is the example of object.
+
+class Hii{
+
+    String name;
+    int price;
+
+    // This is toString method in object to check the hexacode.
+    public String toString() {
+
+        return name + " : " + price;
+       }
+
+
+       // with the help of this method, you can check the value of two object are same,
+       public boolean equals(Hii that) {
+
+        if (this.name.equals(that.name) && this.price == that.price) {
+            return true;
+        }else {
+            return false;
+        }
+       }
+
+    // public void add() {
+    //     System.out.println("heyy there");
+    // }
+
+    // public void show() {
+    //     System.out.println("heyy again");
+    // }
+}
+
+
+
+public class Object {
+    public static void main(String[] args) {
+        Hii h1 = new Hii();
+        h1.name = "sumit";
+        h1.price = 34444;
+        
+        Hii h2 = new Hii();
+        h2.name = "sumit";
+        h2.price = 34444;
+
+        boolean result = h1.equals(h2);
+
+        System.out.println(result);
+    }
+}
+
+*/

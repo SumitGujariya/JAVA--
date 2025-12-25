@@ -16,14 +16,14 @@ abstract class Animal {
      * System.out.println("Constructor of the Animal");
      * }
      */
-    abstract void walk(); // This is a abstract method.
+    public abstract void walk(); // This is a abstract method.
 
     public void eats() { // This one is non-abstract method.
         System.out.println("Animal can eats"); // Now all the (Sub) class inherit the method of (Base) class.
     }
 }
 
-class Horse extends Animal {
+class Horse extends Animal { // you can also abstaract this class then you want to another class after this.
     /*
      * This is the example of contructor.
      * Horse() {
@@ -35,7 +35,7 @@ class Horse extends Animal {
     }
 }
 
-class Murgi extends Animal {
+class Murgi extends Animal { // This class will you say concrete class.
     /*
      * Murgi() {
      * System.out.println("Constructor of the Murgi");
