@@ -57,7 +57,7 @@ public class Static {
     // you never use the directly non static varibles inside the static method but indirectly.
     // but you can use the non static varibles in static method with the help of their object to set the parameters with class name and their object name.
     public static void show1(Mobile mb) {
-        System.out.println(mb.brand + " : " + mb.price + " : " + mb.name);
+        System.out.println(mb.brand + " : " + mb.price + " : " + Mobile.name);
     }
 }
 
