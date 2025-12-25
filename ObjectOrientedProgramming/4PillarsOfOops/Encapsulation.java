@@ -9,10 +9,8 @@ an object, reducing the negative effect due to dependencies. e.g. "protected",
 */
 class Account {
     public String name; // This is public any one can access.
-    protected String email; // This is protectes it's only access whenever the package import.it's only
-                            // access by the by another files of their sub class. if we define the package name.
-    private String password; // This is private no one can access untill for access this you need to define
-                             // fuction with the help of getters and setters.
+    protected String email; // This is protectes it's only access whenever the package import.it's only access by the by another files of their sub class. if we define the package name.
+    private String password; // This variable is only accessible only in the same class, this is private no one can access untill for access this you need to define fuction with the help of getters and setters.
     // Default :- we have default type also it set the value by default.
 
     // Getters and Setters help you to acces the password.
@@ -43,4 +41,43 @@ public class Encapsulation {
     }
 }
 
+/*
+class Human {
+    String name;
+    int age;
+
+    public String getname() {
+        return name;
+    }
+
+    public String setname(String n) {
+        return n;
+    }
+
+    public int getage() {
+        return age;
+    }
+
+    public int setage(int a) {
+        return a;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Human hm = new Human();
+        hm.name = "sumit";
+        hm.age = 34;
+
+
+        System.out.println(hm.getname());
+        System.out.println(hm.getage());
+        System.out.println(hm.name + " : " + hm.age);
+    }
+}
+
+*/
+
 // For better understanding go to (Bank) folder.
+
+
