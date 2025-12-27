@@ -1,6 +1,6 @@
 package StringInJava;
 
-// This is the example of string buffer
+// This is the example of string buffer.
 // string buffer is thread safe.
 public class StringBufferr {
     public static void main(String[] args) {
