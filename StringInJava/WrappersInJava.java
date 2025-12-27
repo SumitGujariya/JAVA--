@@ -8,7 +8,7 @@ public class WrappersInJava {
         int num2 = num1;  // This is (auto-unboxing) is when you take out the value premetive value for the oject.
         System.out.println(num2);
 
-        // Here's you converst the string value into int with the help of (parse int).
+        // Here's you convert the string value into int with the help of (parse int).
         String str = "20";
         int num3 = Integer.parseInt(str);
         System.out.println(num3*5);
