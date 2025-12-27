@@ -1,0 +1,3 @@
+First is Compile time error.
+Second is Run time error, we also those exception handling
+Thirs is Logical error.

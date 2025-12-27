@@ -9,6 +9,8 @@ Data binding : Data binding is a process of binding the application UI and busin
 */
 
 // An abstract class must be declared with an abstract keyword.
+
+
 abstract class Animal {
     /*
      * This is the example of contructor.
@@ -23,7 +25,7 @@ abstract class Animal {
     }
 }
 
-class Horse extends Animal { // you can also abstaract this class then you want to another class after this.
+class Horse extends Animal { // you can also abstaract this class then you want to all the properties inside the another class after this.
     /*
      * This is the example of contructor.
      * Horse() {
