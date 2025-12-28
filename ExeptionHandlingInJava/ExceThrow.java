@@ -24,6 +24,8 @@ public class ExceThrow {
 
 */
 
+// The throw keyword is used to create a custom error.
+// The throw statement is used together with an exception type. There are many exception types available in Java- ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
 
 // This is the example of your own exception you can create your own exception.
 // you can create your own exceptio with the help of class you need to define class of your name.
@@ -59,3 +61,8 @@ public class ExceThrow {
         System.out.println("Byee");
     }
 }
+
+
+
+// The throws keyword indicates what exception type may be thrown by a method.
+// There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
