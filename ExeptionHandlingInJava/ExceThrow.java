@@ -66,3 +66,33 @@ public class ExceThrow {
 
 // The throws keyword indicates what exception type may be thrown by a method.
 // There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
+
+
+class SumitException extends RuntimeException { // Here's you extends the properties with the help of (Exception) and also with the help (RuntimeException)
+    public SumitException(String string) { // here you also need to creat the constructor to print the message, and pass the parameter inside the constructor.
+        super(string); // This super we called super class constructor. 
+    }
+}
+
+public class ExceThrow {
+    public static void main(String[] args) {
+        int i = 20;
+        int j = 0;
+
+        try {
+            j = 18 / i; 
+            if (j==0) // Here you pass the condition.
+                // Here you write the exception of your own name.
+                throw new SumitException("I don't have time to print zero dude"); // Here you throw the error with the help of throw keyword.
+        } 
+        catch (SumitException e) { // Here's you catching the exception you built, here you need to pass the name of your exception you creating.
+            j = 18 / 1;
+            System.out.println("You are not in you limit..." + e );
+        } 
+        catch (Exception e) {
+            System.out.println("something went wrong...");
+        }
+        System.out.println(j);
+        System.out.println("Byee");
+    }
+}
