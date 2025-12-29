@@ -72,10 +72,6 @@ public class ExceThrow {
 /*
 // It is good to write with the class.
 // The throws keyword indicates what exception type may be thrown by a method.
-// There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
-// The throws keyword indicates what exception type may be thrown by a method.
-// There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
-// It is good to write with the class.
 // The throws keyword indicates what exception type may be thrown by a method.
 // There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
 // The throws keyword indicates what exception type may be thrown by a method.
