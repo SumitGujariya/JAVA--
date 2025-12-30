@@ -14,6 +14,7 @@ class Calculator
 public class StackAndHeap {
 	public static void main(String[] args) {
 		int data = 10;
+		// System.out.println(data); // It's only use for remove the error ignore this line.
 		Calculator obj = new Calculator();
 		Calculator obj1 = new Calculator();
 		int r1 = obj.add(3,4);
