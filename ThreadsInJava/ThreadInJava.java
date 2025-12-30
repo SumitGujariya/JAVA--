@@ -10,11 +10,10 @@ class A extends Thread {
         for (int i = 0; i < 100; i++) {
             System.out.println("hii");
 
-            // With the help of Thread.sleep method you give your task take a break after
+            // With the help of Thread.sleep method you give your task take a break after.
             // executing. it's always writen in try catch block.
             // Wtih the help of you perform your task individualy and say parallel.
-            // But in some condition you also see the repetative task so it's noraml in
-            // threads.
+            // But in some condition you also see the repetative task so it's noraml in threads.
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
