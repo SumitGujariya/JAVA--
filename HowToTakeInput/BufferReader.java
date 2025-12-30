@@ -45,7 +45,7 @@ public class BufferedReaderExample {
             System.out.println(num);
         }
         finally {
-            br.close();
+            br.close(); // it is good to use close whenever you want to close the connectionand resources.
         }
     }
     
