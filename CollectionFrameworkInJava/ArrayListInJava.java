@@ -6,7 +6,7 @@ import java.util.Collections;
 public class ArrayListInJava {
     public static void main(String[] args) {
         
-        ArrayList<Integer> myNumbers = new ArrayList<>();
+        ArrayList<Integer> myNumbers = new ArrayList<Integer>();
         myNumbers.add(4);
         myNumbers.add(6);
         myNumbers.add(3);
