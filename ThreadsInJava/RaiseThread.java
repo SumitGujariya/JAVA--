@@ -10,8 +10,6 @@ class Counter {
     }
 }
 
-
-
 public class RaiseThread { 
     public static void main(String[] args) throws InterruptedException {
         
