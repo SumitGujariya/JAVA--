@@ -34,7 +34,7 @@ public class RaiseThread {
         t1.start(); // Here's the start belongs to the thread class. we call with the help of (t1.).
         t2.start();
   
-        // Join is a special method which allows you to your main threas to wait for two other thread to comeback and join.
+        // Join is a special method which allows you to your main threads to wait for two other thread to comeback and join.
         // It throws a decleration called (throws InterruptedException).
         t1.join();
         t2.join();
