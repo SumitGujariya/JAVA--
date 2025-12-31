@@ -15,6 +15,7 @@ public class ArrayListInJava {
 
         Collections.sort(myNumbers);
 
+
         for (Integer i : myNumbers) {
 
             System.out.println(i);
