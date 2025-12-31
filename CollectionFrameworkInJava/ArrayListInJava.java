@@ -1,3 +1,12 @@
+/*
+Collection API -> concept.
+Collection -> Interface.
+Collections -> classe with multiple methods.
+Different type of data structures.
+*/
+
+
+
 package CollectionFrameworkInJava;
 
 import java.util.ArrayList;
