@@ -52,8 +52,7 @@ public class Inheritance {
  * }
  * }
  * 
- * // We inherit the properties of the base class with the help of (Extends
- * keyword).
+ * // We inherit the properties of the base class with the help of (Extends keyword).
  * class Triangle extends Shape { // this is derived class or child class.
  * public void area(int l, int h) {
  * System.out.println(1/2*l*h);
