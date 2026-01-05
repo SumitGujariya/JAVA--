@@ -33,7 +33,7 @@ System.out.println("Hello World!");
 You can add as many println() methods as you want. Note that it will add a new line for each method.
 Finally, remember that each Java statement must end with a semicolon (;).
 System.out.println("Java is fun!");
-It is important that you end the statement with a semicolon ;.
+It is important that you end the statement with a semicolon (;) .
 If you forget the semicolon (;), an error will occur and the program will not run:
 Example
 System.out.println("Java is fun!")
