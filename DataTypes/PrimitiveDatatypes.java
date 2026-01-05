@@ -30,12 +30,12 @@ The type of value (data) which is used in a program. There is a two types of dat
     //  int myNum = 5;               // Integer (whole number)
     //  float myFloatNum = 5.99f;    // Floating point number
     // Scientific Numbers
-     //   A floating point number can also be a scientific number with an "e" to indicate the power of 10.
-     //   Example
-     //   float f1 = 35e3f;
-     //   double d1 = 12E4d;
-     //   System.out.println(f1);
-     //   System.out.println(d1);
+    //   A floating point number can also be a scientific number with an "e" to indicate the power of 10.
+    //   Example
+    //   float f1 = 35e3f;
+    //   double d1 = 12E4d;
+    //   System.out.println(f1);
+    //   System.out.println(d1);
     //  char myLetter = 'D';         // Character, the char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c'.
     //  boolean myBool = true;       // Boolean, For this, Java has a boolean data type, which can only take the values true or false.
     //  String myText = "Hello";     // String, The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes.
@@ -45,7 +45,6 @@ The type of value (data) which is used in a program. There is a two types of dat
 
 //         **************   Primitive DataTypes   *************
 
-/* 
 public class PrimitiveDatatypes {
     public static void main(String[] args) {
     // For all those datatypes are explain in starting the file.
@@ -65,4 +64,3 @@ public class PrimitiveDatatypes {
     }
 }
 
-*/

@@ -5,13 +5,13 @@ public class LogicalOperators {
 
         // You apply this with more than 2 condition also.
         System.out.println((num1 > num2) && (num1 < num2));
-        // In && logicla operators they work like this.
+        // In (&&) logical operators they work like this.
         // T > T = T
         // T > F = F
         // F > T = F
         // F > F = F
         System.out.println((num1 > num2) || (num1 < num2));
-        // In || logicla operators they work like this.
+        // In (||) logical operators they work like this.
         // F > F = F
         // F > T = T
         // T > F = T

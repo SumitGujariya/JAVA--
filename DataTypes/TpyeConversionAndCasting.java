@@ -40,9 +40,11 @@ public class TpyeConversionAndCasting {
 
     float ft = 5.6f;
     int in = (int) f; // If you try to convert the value into it. you loose some value.
+    output:- 5
 
     int in = 58;
     float ft = (float) in; // It will work on in both types.
+    output:- 58.0
 
  }
 
@@ -65,6 +67,7 @@ To increase there size of the value.
 
  }
      
-    int result = a * b; // The reason of using int if we perform the task there size will be going out of range. so here we use int type promotion with the help of we we convert the value into byte to int to increase the range.
+    int result = a * b; // The reason of using int if we perform the task there size will be going out of range. 
+                        // so here we use int type promotion with the help of we we convert the value into byte to int to increase the range.
 
 */

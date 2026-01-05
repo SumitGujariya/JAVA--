@@ -46,7 +46,7 @@ public class Enum {
         
         // Status[] ss = Status.values(); // This is print all the variables you pass in the enum class with the help of array.
 
-        // Access all the value with the help of for loop.
+        // Access all the value with the help of (enhanced for loop).
         // for(Status s : ss) {
         //     System.out.println(s + " : " + s.ordinal());
         // }
@@ -79,7 +79,7 @@ enum Laptop {
 
 public class Enum {
     public static void main(String[] args) {
-        // Laptop lap = Laptop.Macebook; // In enum you call you method/constructot like this.
+        // Laptop lap = Laptop.Macebook; // In enum you call you method/constructor like this.
         // System.out.println(lap + " : " + lap.getPrice());
 
 

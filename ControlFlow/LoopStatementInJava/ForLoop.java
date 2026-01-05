@@ -1,6 +1,6 @@
 /*
 Sets a variable before the loop starts: int i = 0
-Sefines the condition for the loop to run: i < 5. If the condition is true, the loop will run again; if it is false, the loop ends.
+Defines the condition for the loop to run: i < 5. If the condition is true, the loop will run again; if it is false, the loop ends.
 Sncreases a value each time the code block has run: i++
 Just like a while loop, a for loop may also never run. If the condition is false right from the start, the code inside the loop will be skipped entirely:
 
@@ -24,7 +24,7 @@ package LoopStatementInJava;
 
 public class ForLoop {
     public static void main(String[] args) {
-        // int i = 0; // You can define the value eveywher, If you decide in (For Loop) already
+        // int i = 0; // You can define the value eveywhere, If you decide in (For Loop) already
 
 
         for (int i = 0; i < 5; i++) { // In this line you write all the condition at once you dont need to define variable in any other side.

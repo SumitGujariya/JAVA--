@@ -1,7 +1,7 @@
 /*
 The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true. 
 Then it will repeat the loop as long as the condition is true.
-In the while loop chapter, we saw that if the condition is false at the beginning, the loop never runs at all.
+In the while loop, we saw that if the condition is false at the beginning, the loop never runs at all.
 The do/while loop is different: it will always run the code block at least once, even if the condition is false from the start.
 In the example below, the variable i starts at 10, so i < 5 is false immediately. Still, the loop runs once before checking the condition:
 
@@ -14,8 +14,6 @@ do {
 
     <update iterator>
 } (<condition>)
-
-package LoopingStatements;
 
 public class DoWhileLoop {
     public static void main(String[] args) {

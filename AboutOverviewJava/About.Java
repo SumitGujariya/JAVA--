@@ -11,7 +11,7 @@ The main() method is required in every Java program. It is where the program sta
 
 public static void main(String[] args)
 Any code placed inside the main() method will be executed.
-For now, you don't need to understand the keywords public, static, and void. You will learn about them later in this tutorial. Just remember: main() is the starting point of every Java program.
+For now, you don't need to understand the keywords public, static, and void.ust remember: main() is the starting point of every Java program.
 System.out.println()
 Inside the main() method, we can use the println() method to print a line of text to the screen:
 
@@ -27,7 +27,6 @@ Here's what each part means (you will learn the details later):
 System is a built-in Java class.
 out is a member of System, short for "output".
 println() is a method, short for "print line".
-You learned from the previous chapter that you can use the println() method to output values or print text in Java:
 Example
 System.out.println("Hello World!");
 

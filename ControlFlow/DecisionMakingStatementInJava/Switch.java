@@ -9,20 +9,20 @@ switch(expression)
    // The switch block has case statements whose values must be of the same type of expression
    case value1 :
    // Code statement to be executed
-   break; // break is optional
+   break; // break is optional, but good to use.
    case value2 :
    // Code statement to be executed
    break; // break is optional
    // There can be several case statements
    // When none of the cases is true, a default statement is used, and no break is needed in the default case.
-   default :
+   default : 
  // Code statement to be executed
 }
 */
 
 public class Switch {
   public static void main(String[] args) {
-    int WeekDays = 9;
+    int WeekDays = 5;
 
     switch (WeekDays) {
       case 1: // The break statement is commonly used to exit a switch statement once a matching case has been executed

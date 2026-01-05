@@ -13,10 +13,10 @@ class Calculator{
 public class Demo {
 
 	public static void main(String[] args) {
-		int num1=4;
-		int num2=5;
-		Calculator calc= new Calculator();
-		int result = calc.add(num1,num2);
+		int num1 = 4;
+		int num2 = 5;
+		Calculator calc = new Calculator();
+		int result = calc.add(num1, num2);
 		System.out.println(result);
 	}
 }
@@ -39,9 +39,9 @@ class Computer{
 
 public class Method {
 	public static void main(String[] args) {
-		Computer obj=new Computer(); // Here's (obj) is refrence variables.
+		Computer obj = new Computer(); // Here's (obj) is refrence variables.
 		obj.playMusic();
-		String src=obj.getMeAPen(10);
+		String src = obj.getMeAPen(10);
 		System.out.println(src);
 	}
 }

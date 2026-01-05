@@ -1,6 +1,6 @@
 /*
 Operators:
-The operators are symbols that are used to do operation over something. There are four types of operators in javascript, i.e.
+The operators are symbols that are used to do operation over something. There are four types of operators in java, i.e.
 1. Arthematic operators: These are used to do the mathematical calculations. The operators fall into this category are.
    addition (+),
    substraction (-),
@@ -25,5 +25,5 @@ The operators are symbols that are used to do operation over something. There ar
 4. Logical operators: The logical operators are the operators which are used to connect two or more conditions. This include
    and (&&): only true when both conditions are true,
    or (||): only true if one of either condition is true,
-   not (!): if one condition is true make it false and vice-versa
+   not (!): if one condition is true make it false and vice-versa.
 */
