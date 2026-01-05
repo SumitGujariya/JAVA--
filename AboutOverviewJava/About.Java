@@ -7,7 +7,7 @@ When saving the file, save it using the class name and add .java to the end of t
 
 Hello World
 The main Method
-The main() method is required in every Java program. It is where the program starts running:
+The main() method is required in every Java program. It is where the program starts running.
 
 public static void main(String[] args)
 Any code placed inside the main() method will be executed.
