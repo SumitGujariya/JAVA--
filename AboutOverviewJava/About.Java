@@ -13,7 +13,7 @@ public static void main(String[] args)
 Any code placed inside the main() method will be executed.
 For now, you don't need to understand the keywords public, static, and void.ust remember: main() is the starting point of every Java program.
 System.out.println()
-Inside the main() method, we can use the println() method to print a line of text to the screen:
+Inside the main() method, we can use the println() method to print a line of text to the screen.
 
 Example
 public static void main(String[] args) {
@@ -30,7 +30,7 @@ println() is a method, short for "print line".
 Example
 System.out.println("Hello World!");
 
-You can add as many println() methods as you want. Note that it will add a new line for each method:
+You can add as many println() methods as you want. Note that it will add a new line for each method.
 Finally, remember that each Java statement must end with a semicolon (;).
 System.out.println("Java is fun!");
 It is important that you end the statement with a semicolon ;.
