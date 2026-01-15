@@ -20,6 +20,7 @@ public static void main(String[] args) {
   System.out.println("Hello World");
 }
 
+
 Note: The curly braces {} mark the beginning and the end of a block of code.
 System.out.println() may look long, but you can think of it as a single command that means: "Send this text to the screen."
 Here's what each part means (you will learn the details later):
