@@ -1,5 +1,6 @@
 package MethodsInJava;
 
+
 /**
 class Calculator{
 	int a; // This one is instant variables.
