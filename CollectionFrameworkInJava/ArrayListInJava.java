@@ -7,8 +7,8 @@ import java.util.List;
 public class ArrayListInJava {
     public static void main(String[] args){   
     	
-//    	Collection<Integer> nums= new ArrayList<Integer>();
-//  	Collection nums=new ArrayList();
+//    	Collection<Integer> nums = new ArrayList<Integer>();
+//  	Collection nums = new ArrayList();
     	List<Integer> nums = new ArrayList<Integer>();
     	nums.add(6);
     	nums.add(5);
@@ -22,13 +22,13 @@ public class ArrayListInJava {
     	
     	System.out.println(nums.indexOf(2));
     	
-//    	for(int n:nums)
+//    	for(int n : nums)
 //    	{
 //    		System.out.println(nums);	
 //    	}
-    	for(Object n:nums)
+    	for(Object n : nums)
     	{
-    		int num=(Integer)n;
+    		int num = (Integer)n;
     		System.out.println(num);	
     	}
     }
@@ -107,6 +107,9 @@ public class ArrayListInJava {
 */
 
 
+
+
+// Not compulsory to read this example.
 /*
 Just a normal example.
 

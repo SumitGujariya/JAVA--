@@ -12,7 +12,7 @@ public class MapInJava {
     	
     	students.put("Sumit",56);
     	students.put("Laksh",23);
-    	students.put("Sakshi",67);
+    	students.put("Samay",67);
     	students.put("Arjun",92);
     	students.put("Yash",45);
     	

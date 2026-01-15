@@ -33,9 +33,9 @@ public class SetInJava {
 public class SetInJava {
     public static void main(String[] args){   
     	
-//    	Set<Integer> nums=new HashSet<Integer>();  	
-//    	Set<Integer> nums=new TreeSet<Integer>();
-    	Collection<Integer> nums=new TreeSet<Integer>();
+//    	Set<Integer> nums = new HashSet<Integer>();  	
+//    	Set<Integer> nums = new TreeSet<Integer>();
+    	Collection<Integer> nums = new TreeSet<Integer>();
     	nums.add(62);
     	nums.add(54);
     	nums.add(82);
