@@ -13,6 +13,7 @@ This example uses a single-line comment before a line of code:
 System.out.println("Hello World");
 
 This example uses a single-line comment at the end of a line of code:
+
 Example
 System.out.println("Hello World"); // This is a comment
 
@@ -22,8 +23,8 @@ System.out.println("Hello World"); // This is a comment
 
 Multi-line comments start with /* and ends with .
 Any text between and  will be ignored by Java.
-
 This example uses a multi-line comment (a comment block) to explain the code:
+
 Example
 The code below will print the words Hello World
 to the screen, and it is amazing 
