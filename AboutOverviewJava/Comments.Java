@@ -12,7 +12,7 @@ This example uses a single-line comment before a line of code:
 // This is a comment
 System.out.println("Hello World");
 
-This example uses a single-line comment at the end of a line of code:
+This example uses a single-line comment at the end of a line of code.
 
 Example
 System.out.println("Hello World"); // This is a comment
