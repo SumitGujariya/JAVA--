@@ -8,7 +8,7 @@ class Account {
     public String name; // This is public any one can access.
     protected String email; // This is protectes it's only access whenever the package import.it's only access by the by another files of their sub class. if we define the package name.
     private String password; // This variable is only accessible only in the same class, this is private no one can access untill for access this you need to define fuction with the help of getters and setters.
-    // Default :- we have default type also it set the value by default.
+    // Default :- We have default type also it set the value by default.
 
     // Getters and Setters help you to acces the password.
     public String getPassword() { // Here's you get the password.
@@ -17,7 +17,7 @@ class Account {
 
     // public String getPassword() {
     // setPassword(randomPass); // it set the random password.
-    // return this.password; // and return this.
+    // return this.password; // And return this.
     // }
 
     // You make private your setPassword also, after that no one can access the
