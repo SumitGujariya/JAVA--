@@ -25,7 +25,7 @@ abstract class Animal {
     }
 }
 
-class Horse extends Animal { // you can also abstaract this class then you want to all the properties inside the another class after this.
+class Horse extends Animal { // You can also abstaract this class then you want to all the properties inside the another class after this.
     /*
      * This is the example of contructor.
      * Horse() {
