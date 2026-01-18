@@ -9,7 +9,7 @@ class A {
 
 class B extends A {
 
-    @Override // after write the override anotation method you find the error without wasting time in compile. it will show you the error.
+    @Override // After write the override anotation method you find the error without wasting time in compile. it will show you the error.
     public void showTheDataWhichBeLongsToThe() {
         System.out.println("In b show");
     }
