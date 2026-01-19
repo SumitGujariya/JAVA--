@@ -27,7 +27,7 @@ public class BufferReader {
 
 
 /*
-// BufferReader usin try finally block.
+// BufferReader using try finally block.
 
 import java.io.InputStreamReader;
 import java.io.IOException;
