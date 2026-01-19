@@ -28,7 +28,7 @@ public class Enum {
         
         
         
-        // print the value using if else 
+        // Print the value using if else 
         // Status ss = Status.Failed;
         // if(ss == Status.Runnig)
         //     System.out.println("All good");
@@ -56,7 +56,7 @@ public class Enum {
 }
 
 
-// another example of enum 
+// Another example of enum 
 
 /*
 enum Laptop {
