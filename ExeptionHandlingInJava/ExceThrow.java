@@ -37,7 +37,7 @@ public class ExceThrow {
 // This is class you need to define for your name of exception.
 // You also build something to create your own Exception or you extends the value, here we extends the value. 
 class SumitException extends RuntimeException { // Here's you extends the properties with the help of (Exception) and also with the help (RuntimeException)
-    public SumitException(String string) { // here you also need to creat the constructor to print the message, and pass the parameter inside the constructor.
+    public SumitException(String string) { // Here's you also need to creat the constructor to print the message, and pass the parameter inside the constructor.
         super(string); // This super we called super class constructor. 
     }
 }
