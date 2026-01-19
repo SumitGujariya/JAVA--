@@ -54,7 +54,7 @@ public class BufferedReaderExample {
 
 // Enhanced bufferreader.
 // Here you dont need to close the its close (Autoclosble).
-// br will be automatically closed after the block ends.
+// BR will be automatically closed after the block ends.
 // No need to write br.close().
 
 /*
