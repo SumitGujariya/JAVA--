@@ -7,7 +7,7 @@ public class Literals {
         int num2 = 0x7e;  // This is Hexadecimal number in java.
         int num3 = 10_00_00_000;  // In java we have feature to write a big value like this to count easily.
         double num4 = 56; //  In java you assign a interger value in doubl it will converted the value in compile time.
-        char num5 = 'c'; //  In java character aslo treated as a integer 
+        char num5 = 'c'; //  In java character aslo treated as a integer.
         
         System.out.println(num1);
         System.out.println(num2);

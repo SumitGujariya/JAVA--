@@ -34,7 +34,7 @@ public class TpyeConversionAndCasting {
 //            ***********     Float    ***********
 /* 
  If you try to convert the value into it. you loose some value.
- you also conversion in the float but you loose some value in it.
+ You also conversion in the float but you loose some value in it.
 
  {
 
