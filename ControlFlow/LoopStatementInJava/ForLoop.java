@@ -24,12 +24,12 @@ package LoopStatementInJava;
 
 public class ForLoop {
     public static void main(String[] args) {
-        // int i = 0; // You can define the value eveywhere, If you decide in (For Loop) already
+        // int i = 0; // You can define the value eveywhere, If you decide in (For Loop) already.
 
 
         for (int i = 0; i < 5; i++) { // In this line you write all the condition at once you dont need to define variable in any other side.
         // for (int i = 0; i < 5; i++) { // If you write (i<5) it will print before raching the value 5 it will run the loop (0 to 4).
-        // for (int i = 0; i <= 5; i++) { // If you write (i<=5) it will print untill it gets 5 value
+        // for (int i = 0; i <= 5; i++) { // If you write (i<=5) it will print untill it gets 5 value.
             System.out.println("For loop " + i);
         }
     }
