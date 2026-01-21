@@ -51,7 +51,7 @@ public class ExceThrow {
             j = 18 / i; 
             if (j==0) // Here you pass the condition.
                 // Here you write the exception of your own name.
-                throw new SumitException("I don't have time to print zero dude"); // Here you throw the error with the help of throw keyword.
+                throw new SumitException("I don't have time to print zero dude"); // Here's you throw the error with the help of throw keyword.
         } 
         catch (SumitException e) { // Here's you catching the exception you built, here you need to pass the name of your exception you creating.
             j = 18 / 1;
