@@ -35,12 +35,12 @@ public class ForLoop {
     }
 }
 
-/*            ******   Nested Loops    *******
+/*            *******   Nested Loops    *******
 
 // This is the example of nested loop.
 // Nested loop is use to write the loop inside the loop.
 // It is also possible to place a loop inside another loop. This is called a nested loop.
-// The "inner loop" will be executed one time for each iteration of the "outer loop":
+// The "inner loop" will be executed one time for each iteration of the "outer loop".
 
 public class ForLoop {
     public static void main(String[] args) {
