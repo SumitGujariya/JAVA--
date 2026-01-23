@@ -1,7 +1,8 @@
 package StringInJava;
 
-// this is string builder.
-// string builder is not thread safe.
+// This is string builder.
+// String builder is not thread safe.
+
 public class StringBuilderr {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("sumitt");
