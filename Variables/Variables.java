@@ -24,10 +24,12 @@ We can combine the above two steps like:
 
 // public class Variables {
 //     public static void main(String[] args) {
+
 //         int variableOne = 4;
 //         double variableTwo = 3.14159;
 //         System.out.println(variableOne);
 //         System.out.println(variableTwo);
+
 //     }
 // }
 
