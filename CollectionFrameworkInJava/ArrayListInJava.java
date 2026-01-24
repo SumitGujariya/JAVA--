@@ -50,9 +50,9 @@ public class ArrayListInJava {
     public static void main(String[] args){   
 
     	// List Interface:
-    	// Allows duplicate elements
-    	// Maintains insertion order
-    	// Supports index-based access
+    	// Allows duplicate elements.
+    	// Maintains insertion order.
+    	// Supports index-based access.
 
     	// Different ways to declare ArrayList (commented):
     	// Collection<Integer> nums = new ArrayList<Integer>();
