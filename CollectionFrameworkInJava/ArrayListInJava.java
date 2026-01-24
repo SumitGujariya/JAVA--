@@ -59,7 +59,7 @@ public class ArrayListInJava {
     	// Collection nums = new ArrayList();   // raw type (not recommended)
 
     	// Preferred:
-    	// List reference with generic type safety
+    	// List reference with generic type safety.
     	List<Integer> nums = new ArrayList<Integer>();
 
     	// Adding elements:
@@ -70,32 +70,32 @@ public class ArrayListInJava {
     	nums.add(2);
 
     	// Invalid:
-    	// Generics enforce type safety at compile time
+    	// Generics enforce type safety at compile time.
     	// nums.add("5");
 
     	// Collections.sort():
-    	// Sorts List elements in ascending (natural) order
-    	// Elements must implement Comparable
+    	// Sorts List elements in ascending (natural) order.
+    	// Elements must implement Comparable.
         Collections.sort(nums);
 
     	// get(index):
-    	// Retrieves element at a specific index
+    	// Retrieves element at a specific index.
     	System.out.println(nums.get(2));
 
     	// indexOf(value):
-    	// Returns index of first occurrence
-    	// Returns -1 if element is not found
+    	// Returns index of first occurrence.
+    	// Returns -1 if element is not found.
     	System.out.println(nums.indexOf(2));
 
     	// Enhanced for-loop (commented):
-    	// Recommended for readability
+    	// Recommended for readability.
 //    	for (int n : nums)
 //    	{
 //    		System.out.println(n);
 //    	}
 
     	// Iteration using Object reference:
-    	// Demonstrates type casting (not required with generics)
+    	// Demonstrates type casting (not required with generics).
     	for (Object n : nums)
     	{
     		int num = (Integer) n;
