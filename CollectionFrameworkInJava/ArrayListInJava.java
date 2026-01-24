@@ -43,8 +43,8 @@ import java.util.Collections;
 import java.util.List;
 
 // ArrayListInJava:
-// Demonstrates List interface using ArrayList
-// Focuses on ordering, indexing, sorting, and iteration
+// Demonstrates List interface using ArrayList.
+// Focuses on ordering, indexing, sorting, and iteration.
 
 public class ArrayListInJava {
     public static void main(String[] args){   
