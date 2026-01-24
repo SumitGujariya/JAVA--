@@ -107,8 +107,6 @@ public class ArrayListInJava {
 */
 
 
-
-
 // Not compulsory to read this example.
 /*
 Just a normal example.
