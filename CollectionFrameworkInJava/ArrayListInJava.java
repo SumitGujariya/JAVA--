@@ -49,7 +49,7 @@ import java.util.List;
 public class ArrayListInJava {
     public static void main(String[] args){   
 
-    	// List Interface:
+    	// List Interface.
     	// Allows duplicate elements.
     	// Maintains insertion order.
     	// Supports index-based access.
@@ -58,7 +58,7 @@ public class ArrayListInJava {
     	// Collection<Integer> nums = new ArrayList<Integer>();
     	// Collection nums = new ArrayList();   // raw type (not recommended)
 
-    	// Preferred:
+    	// Preferred.
     	// List reference with generic type safety.
     	List<Integer> nums = new ArrayList<Integer>();
 
