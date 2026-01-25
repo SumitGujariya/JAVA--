@@ -62,7 +62,7 @@ public class ArrayListInJava {
     	// List reference with generic type safety.
     	List<Integer> nums = new ArrayList<Integer>();
 
-    	// Adding elements:
+    	// Adding elements.
     	// Elements are stored in insertion order
     	nums.add(6);
     	nums.add(5);
@@ -73,7 +73,7 @@ public class ArrayListInJava {
     	// Generics enforce type safety at compile time.
     	// nums.add("5");
 
-    	// Collections.sort():
+    	// Collections.sort().
     	// Sorts List elements in ascending (natural) order.
     	// Elements must implement Comparable.
         Collections.sort(nums);
@@ -87,14 +87,14 @@ public class ArrayListInJava {
     	// Returns -1 if element is not found.
     	System.out.println(nums.indexOf(2));
 
-    	// Enhanced for-loop (commented):
+    	// Enhanced for-loop (commented).
     	// Recommended for readability.
 //    	for (int n : nums)
 //    	{
 //    		System.out.println(n);
 //    	}
 
-    	// Iteration using Object reference:
+    	// Iteration using Object reference.
     	// Demonstrates type casting (not required with generics).
     	for (Object n : nums)
     	{
