@@ -42,7 +42,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// ArrayListInJava:
+// ArrayListInJava.
 // Demonstrates List interface using ArrayList.
 // Focuses on ordering, indexing, sorting, and iteration.
 
@@ -69,7 +69,7 @@ public class ArrayListInJava {
     	nums.add(8);
     	nums.add(2);
 
-    	// Invalid:
+    	// Invalid.
     	// Generics enforce type safety at compile time.
     	// nums.add("5");
 
@@ -78,11 +78,11 @@ public class ArrayListInJava {
     	// Elements must implement Comparable.
         Collections.sort(nums);
 
-    	// get(index):
+    	// get(index).
     	// Retrieves element at a specific index.
     	System.out.println(nums.get(2));
 
-    	// indexOf(value):
+    	// indexOf(value).
     	// Returns index of first occurrence.
     	// Returns -1 if element is not found.
     	System.out.println(nums.indexOf(2));
