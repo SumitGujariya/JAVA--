@@ -45,7 +45,7 @@ import java.util.List;
 import java.util.stream.Stream;
 import java.util.function.Consumer;
 
-// ForEachMethod:
+// ForEachMethod.
 // Demonstrates forEach() method and Consumer functional interface.
 // Shows how actions are performed on each element of a collection.
 
@@ -56,12 +56,12 @@ public class ForEachMethod {
     	// Elements cannot be added or removed.
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
-    	// Consumer Interface:
+    	// Consumer Interface.
     	// Represents an action performed on a value.
     	// accept(value) → returns nothing (void).
     	// Commonly used with forEach().
 
-    	// Consumer using anonymous class (commented):
+    	// Consumer using anonymous class (commented).
 //    	Consumer<Integer> con = new Consumer<Integer>() {
 //    		public void accept(Integer n)
 //    		{
