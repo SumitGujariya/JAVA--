@@ -68,18 +68,18 @@ public class MapInJava {
     	students.put("Arjun",92);
     	students.put("Yash",45);
 
-        // "Harsh" already exists → value 23 will be replaced by 45
+        // "Harsh" already exists → value 23 will be replaced by 45.
     	students.put("Harsh", 45);
     	
         // keySet().
-        // Returns a Set containing all the keys in the Map
-        // Order is NOT guaranteed (depends on implementation)
+        // Returns a Set containing all the keys in the Map.
+        // Order is NOT guaranteed (depends on implementation).
 
     	System.out.println(students.keySet());
     	
         // Iterating over a Map.
-        // Loop through keys
-        // Use key to fetch corresponding value using get(key)
+        // Loop through keys.
+        // Use key to fetch corresponding value using get(key).
 
     	for (String key : students.keySet())
     	{
