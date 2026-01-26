@@ -38,18 +38,18 @@ import java.util.Hashtable;
 public class MapInJava {
     public static void main(String[] args){   
     	
-        // Map Interface:
+        // Map Interface.
         // Stores data in key–value pairs.
         // Keys are UNIQUE, values can be duplicated.
         // If the same key is inserted again, the old value is REPLACED.
 
-        // HashMap vs Hashtable:
-        // HashMap:
+        // HashMap vs Hashtable.
+        // HashMap.
         // NOT synchronized (not thread-safe)
         // Allows ONE null key and multiple null values
         // Faster, commonly used
 
-        // Hashtable:
+        // Hashtable.
         // Synchronized (thread-safe)
         // Does NOT allow null key or null value
         // Older class (legacy), slower than HashMap
