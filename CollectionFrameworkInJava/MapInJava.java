@@ -58,7 +58,7 @@ public class MapInJava {
     	// Map<String, Integer> students = new HashMap<>();
     	Map<String, Integer> students = new Hashtable<>();
     	
-        // put(key, value):
+        // put(key, value).
         // Adds a key–value pair to the map
         // If key already exists → value is overwritten
 
@@ -71,13 +71,13 @@ public class MapInJava {
         // "Harsh" already exists → value 23 will be replaced by 45
     	students.put("Harsh", 45);
     	
-        // keySet():
+        // keySet().
         // Returns a Set containing all the keys in the Map
         // Order is NOT guaranteed (depends on implementation)
 
     	System.out.println(students.keySet());
     	
-        // Iterating over a Map:
+        // Iterating over a Map.
         // Loop through keys
         // Use key to fetch corresponding value using get(key)
 
