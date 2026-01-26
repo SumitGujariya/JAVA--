@@ -69,7 +69,7 @@ public class ForEachMethod {
 //    		}
 //    	};
 
-    	// Consumer using lambda expression:
+    	// Consumer using lambda expression.
     	// Cleaner and more readable.
     	Consumer<Inte
 
