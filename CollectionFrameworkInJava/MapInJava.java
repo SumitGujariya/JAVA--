@@ -29,8 +29,8 @@ public class MapInJava {
 /*
 package CollectionFrameworkInJava;
 
-// Map → key–value data structure
-// HashMap / Hashtable → concrete implementations of Map
+// Map → key–value data structure.
+// HashMap / Hashtable → concrete implementations of Map.
 import java.util.HashMap;
 import java.util.Map;  
 import java.util.Hashtable;
@@ -45,22 +45,22 @@ public class MapInJava {
 
         // HashMap vs Hashtable.
         // HashMap.
-        // NOT synchronized (not thread-safe)
-        // Allows ONE null key and multiple null values
-        // Faster, commonly used
+        // NOT synchronized (not thread-safe).
+        // Allows ONE null key and multiple null values.
+        // Faster, commonly used.
 
         // Hashtable.
-        // Synchronized (thread-safe)
-        // Does NOT allow null key or null value
-        // Older class (legacy), slower than HashMap
+        // Synchronized (thread-safe).
+        // Does NOT allow null key or null value.
+        // Older class (legacy), slower than HashMap.
 
         
     	// Map<String, Integer> students = new HashMap<>();
     	Map<String, Integer> students = new Hashtable<>();
     	
         // put(key, value).
-        // Adds a key–value pair to the map
-        // If key already exists → value is overwritten
+        // Adds a key–value pair to the map.
+        // If key already exists → value is overwritten.
 
     	students.put("Sumit",56);
     	students.put("Laksh",23);
