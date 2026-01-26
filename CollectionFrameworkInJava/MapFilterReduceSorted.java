@@ -85,7 +85,7 @@ public class MapFilterReduceSorted {
 //    		}
 //    	};
 
-    	// Predicate using lambda expression (commented):
+    	// Predicate using lambda expression (commented).
 //    	Predicate<Integer> p = n -> n % 2 == 0;
 
     	// Function Interface.
@@ -103,7 +103,7 @@ public class MapFilterReduceSorted {
     	// Function using lambda expression (commented).
 //    	Function<Integer, Integer> fun = n -> n * 2;
 
-    	// Map–Filter–Reduce pipeline (commented):
+    	// Map–Filter–Reduce pipeline (commented).
     	// 1) filter even numbers
     	// 2) double each number
     	// 3) sum all values
@@ -120,7 +120,7 @@ public class MapFilterReduceSorted {
     	// stream()        → sequential processing.
     	// parallelStream()→ parallel processing using multiple threads.
 
-    	// Creating a stream pipeline:
+    	// Creating a stream pipeline.
     	// Filters even numbers and sorts them
     	Stream<Integer> sortedValues = nums.parallelStream()
     			.filter(n -> n % 2 == 0)
