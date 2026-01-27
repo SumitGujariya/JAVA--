@@ -74,9 +74,9 @@ public class StreamAPI {
 //    		System.out.println(n);
 //    	}
 
-    	// forEach() with lambda:
-    	// Internal iteration handled by Java
-    	// More concise and readable
+    	// forEach() with lambda.
+    	// Internal iteration handled by Java.
+    	// More concise and readable.
     	nums.forEach(n -> System.out.println(n));
 
     	// Traditional logic to:
