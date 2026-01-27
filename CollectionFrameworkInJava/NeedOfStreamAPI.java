@@ -79,10 +79,10 @@ public class StreamAPI {
     	// More concise and readable.
     	nums.forEach(n -> System.out.println(n));
 
-    	// Traditional logic to:
-    	// 1) Check even numbers
-    	// 2) Double them
-    	// 3) Calculate sum
+    	// Traditional logic to.
+    	// 1) Check even numbers.
+    	// 2) Double them.
+    	// 3) Calculate sum.
     	int sum = 0;
     	for (int n : nums)
     	{
@@ -93,7 +93,7 @@ public class StreamAPI {
     		}
     	}
 
-    	// Final result after processing
+    	// Final result after processing.
     	System.out.println(sum);
 
     }
