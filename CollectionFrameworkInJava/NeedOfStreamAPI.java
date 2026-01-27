@@ -56,19 +56,19 @@ import java.util.stream.Stream;
 public class StreamAPI {
     public static void main(String[] args){   
 
-    	// Creating a fixed-size List using Arrays.asList()
-    	// Backed by array → size cannot be changed (no add/remove)
+    	// Creating a fixed-size List using Arrays.asList().
+    	// Backed by array → size cannot be changed (no add/remove).
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
-    	// Traditional for-loop (commented):
-    	// Index-based iteration
+    	// Traditional for-loop (commented).
+    	// Index-based iteration.
 //    	for (int i = 0; i < nums.size(); i++)
 //    	{
 //    		System.out.println(nums.get(i));
 //    	}
 
-    	// Enhanced for-loop (commented):
-    	// Cleaner iteration without index
+    	// Enhanced for-loop (commented).
+    	// Cleaner iteration without index.
 //    	for (int n : nums)
 //    	{
 //    		System.out.println(n);
