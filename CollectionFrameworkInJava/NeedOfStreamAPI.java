@@ -49,9 +49,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-// StreamAPI:
-// Demonstrates different ways of processing collections
-// Shows transition from traditional loops to functional style
+// StreamAPI.
+// Demonstrates different ways of processing collections.
+// Shows transition from traditional loops to functional style.
 
 public class StreamAPI {
     public static void main(String[] args){   
