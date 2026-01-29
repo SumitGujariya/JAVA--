@@ -9,7 +9,7 @@ float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes*/
 
 /*
-Variables:
+Variables.
 The variable are the containers in which the values are stored just like water inside water bottle.
 
 Syntax to declare the variable:
