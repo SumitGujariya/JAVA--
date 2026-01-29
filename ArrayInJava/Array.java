@@ -19,7 +19,7 @@ public class Array {
 //		System.out.println(nums[3]);
 		
 		// print all the value with the help of (for loop).
-		for (int i=0;i<4;i++) {
+		for (int i=0; i<4; i++) {
 			System.out.println(nums[i]);
 		}
 		

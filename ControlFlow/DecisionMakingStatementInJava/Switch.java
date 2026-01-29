@@ -25,9 +25,9 @@ public class Switch {
     int WeekDays = 5;
 
     switch (WeekDays) {
-      case 1: // The break statement is commonly used to exit a switch statement once a matching case has been executed
+      case 1: 
         System.out.println("Monday");
-        break;
+        break; // The break statement is commonly used to exit a switch statement once a matching case has been executed
       case 2:
         System.out.println("Tuesday");
         break;

@@ -1,7 +1,7 @@
 /*
 Sets a variable before the loop starts: int i = 0
 Defines the condition for the loop to run: i < 5. If the condition is true, the loop will run again; if it is false, the loop ends.
-Sncreases a value each time the code block has run: i++
+Increases a value each time the code block has run: i++
 Just like a while loop, a for loop may also never run. If the condition is false right from the start, the code inside the loop will be skipped entirely:
 
 
@@ -44,7 +44,7 @@ public class ForLoop {
 
 public class ForLoop {
     public static void main(String[] args) {
-        int i = 0; // if you 
+        int i = 0;
 
         for (int iterator = 0; i <= 5; i++) { // It will run 5 times.
             System.out.println("This is For loop" + iterator);

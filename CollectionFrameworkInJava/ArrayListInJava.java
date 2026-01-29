@@ -18,9 +18,9 @@ public class ArrayListInJava {
 
         Collections.sort(nums);
     	
-    	System.out.println(nums.get(2));
+    	// System.out.println(nums.get(2));
     	
-    	System.out.println(nums.indexOf(2));
+    	// System.out.println(nums.indexOf(2));
     	
 //    	for(int n : nums)
 //    	{
@@ -56,7 +56,7 @@ public class ArrayListInJava {
 
     	// Different ways to declare ArrayList (commented):
     	// Collection<Integer> nums = new ArrayList<Integer>();
-    	// Collection nums = new ArrayList();   // raw type (not recommended)
+    	// Collection nums = new ArrayList();   // Raw type (not recommended).
 
     	// Preferred.
     	// List reference with generic type safety.
