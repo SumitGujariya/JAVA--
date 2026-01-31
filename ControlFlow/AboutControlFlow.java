@@ -1,5 +1,5 @@
 /*
-Control Flow:
+Control Flow
 
 Control Flow Statements in Java are used to control the order in which statements are executed in a program. They decide which block of code runs and when.
 They are of two types.
