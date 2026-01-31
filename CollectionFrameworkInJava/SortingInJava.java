@@ -95,9 +95,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Comparator;
 
-// Student class:
-// Represents a custom object to be stored inside a Collection
-// Used to demonstrate sorting of user-defined objects
+// Student class.
+// Represents a custom object to be stored inside a Collection.
+// Used to demonstrate sorting of user-defined objects.
 //
 // IMPORTANT:
 // To sort custom objects, Java needs comparison logic
