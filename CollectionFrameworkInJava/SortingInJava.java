@@ -111,17 +111,17 @@ class Student
 	int age;
 	String name;
 
-	// Constructor:
-	// Used to initialize Student objects
+	// Constructor.
+	// Used to initialize Student objects.
 	public Student(int age, String name)
 	{
 		this.age = age;
 		this.name = name;
 	}
 
-	// toString():
-	// Automatically called when object is printed
-	// Helps display meaningful output instead of memory reference
+	// toString().
+	// Automatically called when object is printed.
+	// Helps display meaningful output instead of memory reference.
 	public String toString() {
 		return "Student [age=" + age + ", name=" + name + "]";
 	}
