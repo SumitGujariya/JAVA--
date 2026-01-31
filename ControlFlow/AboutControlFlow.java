@@ -2,7 +2,7 @@
 Control Flow:
 
 Control Flow Statements in Java are used to control the order in which statements are executed in a program. They decide which block of code runs and when.
-They are of two types, i.e.
+They are of two types.
 1. Decision making statements: Decision-making statements let your program make choices and execute different code depending on conditions.
    if-else
    switch
