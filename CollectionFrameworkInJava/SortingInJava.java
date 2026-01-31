@@ -99,11 +99,11 @@ import java.util.Comparator;
 // Represents a custom object to be stored inside a Collection.
 // Used to demonstrate sorting of user-defined objects.
 //
-// IMPORTANT:
-// To sort custom objects, Java needs comparison logic
-// This can be provided using:
-// 1) Comparable  → natural/default ordering (inside class)
-// 2) Comparator  → custom/external ordering (outside class)
+// IMPORTANT.
+// To sort custom objects, Java needs comparison logic.
+// This can be provided using.
+// 1) Comparable  → natural/default ordering (inside class).
+// 2) Comparator  → custom/external ordering (outside class).
 
 // class Student implements Comparable<Student>
 class Student
