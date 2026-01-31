@@ -126,10 +126,10 @@ class Student
 		return "Student [age=" + age + ", name=" + name + "]";
 	}
 
-	// Comparable approach (commented):
-	// Used when the class itself defines natural sorting order
-	// Requires implementing Comparable<T>
-	//
+	// Comparable approach (commented).
+	// Used when the class itself defines natural sorting order.
+	// Requires implementing Comparable<T>.
+	
 	// Rules:
 	// return +ve → current object is greater
 	// return -ve → current object is smaller
