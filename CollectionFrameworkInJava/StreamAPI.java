@@ -43,9 +43,9 @@ import java.util.List;
 import java.util.stream.Stream;
 import java.util.function.Consumer;
 
-// StreamAPI:
-// Demonstrates Stream creation, intermediate operations,
-// terminal operations, and stream lifecycle
+// StreamAPI.
+// Demonstrates Stream creation, intermediate operations.
+// terminal operations, and stream lifecycle.
 
 public class StreamAPI {
     public static void main(String[] args){   
