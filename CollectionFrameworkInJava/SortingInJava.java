@@ -189,7 +189,7 @@ public class SortingInJava {
     	studs.add(new Student(21, "Sumit"));
     	studs.add(new Student(12, "Rahul"));
     	studs.add(new Student(18, "Raghav"));
-    	studs.add(new Student(20, "Shanvi"));
+    	studs.add(new Student(20, "Shan"));
 
     	// Before sorting.
     	// Elements are in insertion order.
