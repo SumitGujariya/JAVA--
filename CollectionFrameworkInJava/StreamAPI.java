@@ -50,8 +50,8 @@ import java.util.function.Consumer;
 public class StreamAPI {
     public static void main(String[] args){   
 
-    	// Creating a fixed-size List using Arrays.asList()
-    	// Cannot add or remove elements
+    	// Creating a fixed-size List using Arrays.asList().
+    	// Cannot add or remove elements.
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
     	// Stream pipeline broken into steps (commented).
