@@ -204,9 +204,9 @@ public class SortingInJava {
     	//   OR
     	// - A Comparator must be provided
     	//
-    	// Here:
-    	// Student does NOT implement Comparable
-    	// So Comparator is mandatory
+    	// Here.
+    	// Student does NOT implement Comparable.
+    	// So Comparator is mandatory.
     	Collections.sort(studs, com);
 
     	// After sorting:
