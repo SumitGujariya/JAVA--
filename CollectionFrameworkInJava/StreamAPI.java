@@ -74,10 +74,10 @@ public class StreamAPI {
 //    	s1.forEach(n -> System.out.println(n));
 //    	s1.forEach(n -> System.out.println(n));
 
-    	// Stream pipeline written in fluent style:
-    	// 1) filter even numbers
-    	// 2) double each number
-    	// 3) sum all values using reduce()
+    	// Stream pipeline written in fluent style.
+    	// 1) filter even numbers.
+    	// 2) double each number.
+    	// 3) sum all values using reduce().
     	int result = nums.stream()
     					.filter(n -> n % 2 == 0)
     					.map(n -> n * 2)
