@@ -65,9 +65,9 @@ public class StreamAPI {
 //    	Stream<Integer> s3 = s2.map(n -> n * 2);
 //    	int result = s3.reduce(0, (c, e) -> c + e);
 
-    	// IMPORTANT:
-    	// A stream can be consumed ONLY ONCE
-    	// Reusing a stream after terminal operation causes exception
+    	// IMPORTANT.
+    	// A stream can be consumed ONLY ONCE.
+    	// Reusing a stream after terminal operation causes exception.
 
 //    	s2.forEach(n -> System.out.println(n));
 //    	s3.forEach(n -> System.out.println(n));
