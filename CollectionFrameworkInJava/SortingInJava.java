@@ -191,9 +191,9 @@ public class SortingInJava {
     	studs.add(new Student(18, "Raghav"));
     	studs.add(new Student(20, "Shanvi"));
 
-    	// Before sorting:
-    	// Elements are in insertion order
-    	for (Student s : studs)
+    	// Before sorting.
+    	// Elements are in insertion order.
+    	for (Student s : studs).
     		System.out.println(s);
 
     	// Collections.sort():
