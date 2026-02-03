@@ -54,7 +54,7 @@ public class StreamAPI {
     	// Cannot add or remove elements
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
-    	// Stream pipeline broken into steps (commented):
+    	// Stream pipeline broken into steps (commented).
     	// stream()  → creates a Stream
     	// filter()  → intermediate operation (lazy)
     	// map()     → intermediate operation (lazy)
