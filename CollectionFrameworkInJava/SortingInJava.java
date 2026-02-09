@@ -178,9 +178,9 @@ public class SortingInJava {
 //    		}
 //    	};
 
-    	// Lambda expression:
-    	// Shorter and cleaner way to implement Comparator
-    	// Comparator is a functional interface (only one abstract method)
+    	// Lambda expression.
+    	// Shorter and cleaner way to implement Comparator.
+    	// Comparator is a functional interface (only one abstract method).
     	Comparator<Student> com = (i, j) -> i.age > j.age ? 1 : -1;
 
     	// List of Student objects:
