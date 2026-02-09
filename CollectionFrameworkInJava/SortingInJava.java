@@ -196,13 +196,13 @@ public class SortingInJava {
     	for (Student s : studs).
     		System.out.println(s);
 
-    	// Collections.sort():
-    	// Used to sort List elements
+    	// Collections.sort().
+    	// Used to sort List elements.
     	//
     	// Requirement.
-    	// - Elements must implement Comparable
+    	// - Elements must implement Comparable.
     	//   OR
-    	// - A Comparator must be provided
+    	// - A Comparator must be provided.
     	//
     	// Here.
     	// Student does NOT implement Comparable.
