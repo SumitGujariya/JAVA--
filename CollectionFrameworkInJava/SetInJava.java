@@ -74,10 +74,10 @@ import java.util.Iterator;
 public class SetInJava {
     public static void main(String[] args){   
 
-    	// Set Interface:
-    	// Stores UNIQUE elements only
-    	// Duplicate values are automatically ignored
-    	// Does NOT support index-based access
+    	// Set Interface.
+    	// Stores UNIQUE elements only.
+    	// Duplicate values are automatically ignored.
+    	// Does NOT support index-based access.
 
     	// HashSet:
     	// No duplicate elements
