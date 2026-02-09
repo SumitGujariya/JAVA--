@@ -79,10 +79,10 @@ public class SetInJava {
     	// Duplicate values are automatically ignored.
     	// Does NOT support index-based access.
 
-    	// HashSet:
-    	// No duplicate elements
-    	// No guaranteed order
-    	// Faster than TreeSet
+    	// HashSet.
+    	// No duplicate elements.
+    	// No guaranteed order.
+    	// Faster than TreeSet.
 //    	Set<Integer> nums = new HashSet<Integer>();
 
     	// TreeSet:
