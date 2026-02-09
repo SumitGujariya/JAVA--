@@ -165,8 +165,8 @@ public class SortingInJava {
 //    		}
 //    	};
 
-    	// Comparator<Student> example (commented):
-    	// Sorts Student objects based on age
+    	// Comparator<Student> example (commented).
+    	// Sorts Student objects based on age.
 //    	Comparator<Student> com = new Comparator<Student>()
 //    	{
 //    		public int compare(Student i, Student j)
