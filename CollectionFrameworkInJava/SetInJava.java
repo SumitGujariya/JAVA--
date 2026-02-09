@@ -85,13 +85,13 @@ public class SetInJava {
     	// Faster than TreeSet.
 //    	Set<Integer> nums = new HashSet<Integer>();
 
-    	// TreeSet:
-    	// No duplicate elements
-    	// Elements are stored in SORTED (ascending) order
-    	// Slower than HashSet due to sorting
+    	// TreeSet.
+    	// No duplicate elements.
+    	// Elements are stored in SORTED (ascending) order.
+    	// Slower than HashSet due to sorting.
 //    	Set<Integer> nums = new TreeSet<Integer>();
 
-    	// Collection reference:
+    	// Collection reference.
     	// Demonstrates polymorphism
     	// Allows switching implementations without changing logic
     	Collection<Integer> nums = new TreeSet<Integer>();
