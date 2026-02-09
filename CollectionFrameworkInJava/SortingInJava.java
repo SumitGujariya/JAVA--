@@ -130,10 +130,10 @@ class Student
 	// Used when the class itself defines natural sorting order.
 	// Requires implementing Comparable<T>.
 	
-	// Rules:
-	// return +ve → current object is greater
-	// return -ve → current object is smaller
-	// return 0   → both objects are equal
+	// Rules.
+	// return +ve → current object is greater.
+	// return -ve → current object is smaller.
+	// return 0   → both objects are equal.
 
 //	public int compareTo(Student that)
 //	{
