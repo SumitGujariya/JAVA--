@@ -147,10 +147,10 @@ class Student
 public class SortingInJava {
     public static void main(String[] args){   
 
-    	// Comparator Interface:
-    	// Used for custom sorting logic
-    	// Does NOT require modifying the class
-    	// Preferred when multiple sorting strategies are needed
+    	// Comparator Interface.
+    	// Used for custom sorting logic.
+    	// Does NOT require modifying the class.
+    	// Preferred when multiple sorting strategies are needed.
 
     	// Comparator<Integer> example (commented):
     	// Sorts integers based on last digit
