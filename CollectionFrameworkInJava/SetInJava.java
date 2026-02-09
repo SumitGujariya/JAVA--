@@ -56,7 +56,7 @@ public class SetInJava {
 }
 
 
-// complete example of setinjava
+// complete example of setinjava.
 
 /*
 package CollectionFrameworkInJava;
@@ -67,9 +67,9 @@ import java.util.TreeSet;
 import java.util.Collection;
 import java.util.Iterator;
 
-// SetInJava:
-// Demonstrates Set interface and its implementations
-// Focuses on uniqueness, ordering, and iteration methods
+// SetInJava.
+// Demonstrates Set interface and its implementations.
+// Focuses on uniqueness, ordering, and iteration methods.
 
 public class SetInJava {
     public static void main(String[] args){   
