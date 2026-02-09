@@ -199,7 +199,7 @@ public class SortingInJava {
     	// Collections.sort():
     	// Used to sort List elements
     	//
-    	// Requirement:
+    	// Requirement.
     	// - Elements must implement Comparable
     	//   OR
     	// - A Comparator must be provided
