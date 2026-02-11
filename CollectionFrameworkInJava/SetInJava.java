@@ -92,8 +92,8 @@ public class SetInJava {
 //    	Set<Integer> nums = new TreeSet<Integer>();
 
     	// Collection reference.
-    	// Demonstrates polymorphism
-    	// Allows switching implementations without changing logic
+    	// Demonstrates polymorphism.
+    	// Allows switching implementations without changing logic.
     	Collection<Integer> nums = new TreeSet<Integer>();
 
     	// Adding elements:
