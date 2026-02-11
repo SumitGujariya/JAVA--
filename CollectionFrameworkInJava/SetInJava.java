@@ -96,8 +96,8 @@ public class SetInJava {
     	// Allows switching implementations without changing logic.
     	Collection<Integer> nums = new TreeSet<Integer>();
 
-    	// Adding elements:
-    	// Duplicate values (if any) will be ignored by Set
+    	// Adding elements.
+    	// Duplicate values (if any) will be ignored by Set.
     	nums.add(62);
     	nums.add(54);
     	nums.add(82);
@@ -107,9 +107,9 @@ public class SetInJava {
     	// Sets are type-safe with generics.
     	// nums.add("5");
 
-    	// Iterator:
-    	// Used to traverse Collection elements
-    	// Works for all Collection implementations
+    	// Iterator.
+    	// Used to traverse Collection elements.
+    	// Works for all Collection implementations.
     	Iterator<Integer> values = nums.iterator();
 
     	// Iterating using Iterator
