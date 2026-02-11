@@ -54,7 +54,7 @@ public class ArrayListInJava {
     	// Maintains insertion order.
     	// Supports index-based access.
 
-    	// Different ways to declare ArrayList (commented):
+    	// Different ways to declare ArrayList (commented).
     	// Collection<Integer> nums = new ArrayList<Integer>();
     	// Collection nums = new ArrayList();   // raw type (not recommended)
 
@@ -63,7 +63,7 @@ public class ArrayListInJava {
     	List<Integer> nums = new ArrayList<Integer>();
 
     	// Adding elements.
-    	// Elements are stored in insertion order
+    	// Elements are stored in insertion order.
     	nums.add(6);
     	nums.add(5);
     	nums.add(8);
