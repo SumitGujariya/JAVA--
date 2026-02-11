@@ -103,8 +103,8 @@ public class SetInJava {
     	nums.add(82);
     	nums.add(21);
 
-    	// Invalid:
-    	// Sets are type-safe with generics
+    	// Invalid.
+    	// Sets are type-safe with generics.
     	// nums.add("5");
 
     	// Iterator:
