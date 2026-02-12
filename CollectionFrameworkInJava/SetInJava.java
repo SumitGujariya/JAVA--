@@ -116,8 +116,8 @@ public class SetInJava {
     	while (values.hasNext())
     		System.out.println(values.next());
 
-    	// Enhanced for-loop (alternative):
-    	// Simpler and more readable
+    	// Enhanced for-loop (alternative).
+    	// Simpler and more readable.
 //    	for (int n : nums)
 //    	{
 //    		System.out.println(n);
