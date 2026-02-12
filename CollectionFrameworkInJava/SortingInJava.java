@@ -209,8 +209,8 @@ public class SortingInJava {
     	// So Comparator is mandatory.
     	Collections.sort(studs, com);
 
-    	// After sorting:
-    	// List is sorted based on age
+    	// After sorting.
+    	// List is sorted based on age.
     	for (Student s : studs)
     		System.out.println(s);
     }
