@@ -112,7 +112,7 @@ public class SetInJava {
     	// Works for all Collection implementations.
     	Iterator<Integer> values = nums.iterator();
 
-    	// Iterating using Iterator
+    	// Iterating using Iterator.
     	while (values.hasNext())
     		System.out.println(values.next());
 
