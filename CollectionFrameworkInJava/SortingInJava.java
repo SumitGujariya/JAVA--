@@ -183,8 +183,8 @@ public class SortingInJava {
     	// Comparator is a functional interface (only one abstract method).
     	Comparator<Student> com = (i, j) -> i.age > j.age ? 1 : -1;
 
-    	// List of Student objects:
-    	// ArrayList stores custom objects
+    	// List of Student objects.
+    	// ArrayList stores custom objects.
     	List<Student> studs = new ArrayList<>();
     	studs.add(new Student(21, "Sumit"));
     	studs.add(new Student(12, "Rahul"));
