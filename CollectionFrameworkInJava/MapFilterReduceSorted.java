@@ -69,8 +69,8 @@ import java.util.stream.Stream;
 public class MapFilterReduceSorted {
     public static void main(String[] args){   
 
-    	// Creating a fixed-size List using Arrays.asList()
-    	// Cannot add or remove elements
+    	// Creating a fixed-size List using Arrays.asList().
+    	// Cannot add or remove elements.
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
     	// Predicate Interface.
