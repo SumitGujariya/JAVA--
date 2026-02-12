@@ -62,9 +62,9 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 // MapFilterReduceSorted.
-// Demonstrates core Stream API operations
-// filter → map → reduce → sorted
-// Shows functional programming style in Java
+// Demonstrates core Stream API operations.
+// filter → map → reduce → sorted.
+// Shows functional programming style in Java.
 
 public class MapFilterReduceSorted {
     public static void main(String[] args){   
