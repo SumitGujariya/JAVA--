@@ -89,9 +89,9 @@ public class MapFilterReduceSorted {
 //    	Predicate<Integer> p = n -> n % 2 == 0;
 
     	// Function Interface.
-    	// Represents transformation logic
-    	// Used mainly with map()
-    	// apply(input) → returns output
+    	// Represents transformation logic.
+    	// Used mainly with map().
+    	// apply(input) → returns output.
 
     	// Function using anonymous class (commented).
 //    	Function<Integer, Integer> fun = new Function<Integer, Integer>() {
