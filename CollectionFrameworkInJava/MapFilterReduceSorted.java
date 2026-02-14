@@ -104,9 +104,9 @@ public class MapFilterReduceSorted {
 //    	Function<Integer, Integer> fun = n -> n * 2;
 
     	// Map–Filter–Reduce pipeline (commented).
-    	// 1) filter even numbers
-    	// 2) double each number
-    	// 3) sum all values
+    	// 1) filter even numbers.
+    	// 2) double each number.
+    	// 3) sum all values.
 //    	int result = nums.stream()
 //    					.filter(n -> n % 2 == 0)
 //    					.map(n -> n * 2)
@@ -121,7 +121,7 @@ public class MapFilterReduceSorted {
     	// parallelStream()→ parallel processing using multiple threads.
 
     	// Creating a stream pipeline.
-    	// Filters even numbers and sorts them
+    	// Filters even numbers and sorts them.
     	Stream<Integer> sortedValues = nums.parallelStream()
     			.filter(n -> n % 2 == 0)
     			.sorted();
