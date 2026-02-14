@@ -74,9 +74,9 @@ public class MapFilterReduceSorted {
     	List<Integer> nums = Arrays.asList(4, 5, 7, 3, 2, 6);
 
     	// Predicate Interface.
-    	// Represents a boolean condition
-    	// Used mainly with filter()
-    	// test(value) → returns true or false
+    	// Represents a boolean condition.
+    	// Used mainly with filter().
+    	// test(value) → returns true or false.
 
     	// Predicate using anonymous class (commented).
 //    	Predicate<Integer> p = new Predicate<Integer>() {
