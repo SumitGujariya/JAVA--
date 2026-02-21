@@ -105,7 +105,7 @@ NumberFormatException:- 	          Occurs when it is not possible to convert a s
 StringIndexOutOfBoundsException:- 	Occurs when trying to access a character in a String that does not exist
 */
 
-// Exception handling
+// Exception handling.
 /*
 You can add more than one catch block, and Java will run the first one that matches the thrown exception type.
 
