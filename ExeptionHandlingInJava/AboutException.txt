@@ -107,7 +107,7 @@ StringIndexOutOfBoundsException:- 	Occurs when trying to access a character in a
 
 // Exception handling
 /*
-You can add more than one catch block, and Java will run the first one that matches the thrown exception type:
+You can add more than one catch block, and Java will run the first one that matches the thrown exception type.
 
 Example
 public class Main {
