@@ -25,7 +25,7 @@ public class Main {
   }
 }
 
-The output will be something like this:
+The output will be something like this.
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
         at Main.main(Main.java:4)
 
@@ -66,7 +66,7 @@ public class Main {
 */
 
 /*
-The throw keyword
+The throw keyword.
 The throw statement allows you to create a custom error.
 The throw statement is used together with an exception type. There are many exception types available in Java: ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException.
 
