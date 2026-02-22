@@ -1,5 +1,4 @@
 
-
 /*
 // First example usin normal try catch.
 public class ExceptionDemo { // Try to write the diffrent type of name to avoid the error not write directlu the name of (Exception).
