@@ -5,7 +5,6 @@ public class MultiDimensionalArray {
 		int nums[][] = new int [3][4]; 
 
 
-
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 4; j++) { // Here we use nested loop.
 				nums[i][j] = (int) (Math.random() *10); // Generate a random number between 0 and 9 and store it in the 2-D array nums at position [i][j].
