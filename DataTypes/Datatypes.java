@@ -47,7 +47,7 @@ public class Datatypes {
         System.out.println(ch2);
         boolean tru = true; // Stores true or false values
         System.out.println(tru);
-        boolean fal = false; // Stores true or false values
+        boolean fal = false; // Stores true or false values.
         System.out.println(fal);
     }
 }
