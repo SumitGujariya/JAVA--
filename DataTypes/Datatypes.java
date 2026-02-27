@@ -43,7 +43,7 @@ public class Datatypes {
         System.out.println(db);
         char ch1 = 'a'; // In char you only use single quote to store the value it will not allow to a double inverted comaa.
         System.out.println(ch1);
-        char ch2 = '1'; // As 1 is inside single inverted comma, hence it will be treated as character. It will treated as a literals
+        char ch2 = '1'; // As 1 is inside single inverted comma, hence it will be treated as character. It will treated as a literals.
         System.out.println(ch2);
         boolean tru = true; // Stores true or false values.
         System.out.println(tru);
