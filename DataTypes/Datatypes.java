@@ -45,7 +45,7 @@ public class Datatypes {
         System.out.println(ch1);
         char ch2 = '1'; // As 1 is inside single inverted comma, hence it will be treated as character. It will treated as a literals
         System.out.println(ch2);
-        boolean tru = true; // Stores true or false values
+        boolean tru = true; // Stores true or false values.
         System.out.println(tru);
         boolean fal = false; // Stores true or false values.
         System.out.println(fal);
