@@ -56,7 +56,7 @@ public class Enum {
 }
 
 
-// Another example of enum 
+// Another example of enum.
 
 /*
 enum Laptop {
