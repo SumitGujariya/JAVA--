@@ -72,7 +72,7 @@ Order status (PENDING, SHIPPED, DELIVERED)
 
 // package NonPrimitiveDatatypes;
 
-// // Basic enums
+// Basic enums
 // enum Direction {
 //     NORTH,
 //     SOUTH,
