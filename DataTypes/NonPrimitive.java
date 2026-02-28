@@ -80,7 +80,7 @@ Order status (PENDING, SHIPPED, DELIVERED)
 //     WEST
 // }
 
-// // Advance enums
+// Advance enums
 // enum Color {
 //     RED("#FF0000"),
 //     GREEN("#00FF00"),
