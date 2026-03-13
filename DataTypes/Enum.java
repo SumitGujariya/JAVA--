@@ -7,7 +7,7 @@ public class Enum {
     public static void main(String[] args) {
 
         
-        Status ss = Status.Success;
+        Status ss = Status.Failed;
         switch (ss) {
             case Runnig:
                 System.out.println("all good");

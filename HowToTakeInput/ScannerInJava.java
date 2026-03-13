@@ -45,6 +45,6 @@ public class ScannerInJava {
         System.out.println("Age is " + age);
         System.out.println("Salary is " + salary);
         
-
+        myObj.close();
     }
 }

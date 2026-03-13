@@ -39,7 +39,7 @@ public class TpyeConversionAndCasting {
  {
 
     float ft = 5.6f;
-    int in = (int) f; // If you try to convert the value into it. you loose some value.
+    int in = (int) ft; // If you try to convert the value into it. you loose some value.
     output:- 5
 
     int in = 58;

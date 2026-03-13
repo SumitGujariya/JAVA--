@@ -19,7 +19,9 @@ public class MethodOverloading {
 		Calculator obj = new Calculator();
 		int r1 = obj.add(3, 4);
 		int r2 = obj.add(3, 4, 3);
+		int r3 = obj.add(5, 5);
 		System.out.println(r1);
 		System.out.println(r2);
+		System.out.println(r3);
 	}
 }

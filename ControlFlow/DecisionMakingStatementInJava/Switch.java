@@ -22,7 +22,7 @@ switch(expression)
 
 public class Switch {
   public static void main(String[] args) {
-    int WeekDays = 5;
+    int WeekDays = 7;
 
     switch (WeekDays) {
       case 1: // The break statement is commonly used to exit a switch statement once a matching case has been executed

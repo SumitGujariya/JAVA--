@@ -1,7 +1,7 @@
 public class Arithmetic {
     public static void main(String[] args) {
         int num1 = 99;
-        // int num2 = 1;
+        int num2= 1;
         // Types the way you perform additoin & substraction task.
         //  num1 = num1 + 1;
         // num += 1;
@@ -12,19 +12,25 @@ public class Arithmetic {
 		// ++num;    //pre increment
 		// num--;    //post decrement
 		// --num;	  //pre decrement
-        int result1 = ++num1;  // Increament the value then fetch.
-        int result2 = num1++;  // Fetch the value then increament. 
-        System.out.println(result1);
+        // int result1 = ++num1;  // Increament the value then fetch.
+        // int result2 = num1++;  // Fetch the value then increament. 
+        // System.out.println(result1);
         //output:- 100
-        System.out.println(result2);
+        // System.out.println(result2);
         //output:- 99
         
 
-        // int result = num1 + num2;
-        // int result = num1 - num2;
-        // int result = num1 * num2;
-        // int result = num1 / num2;
-        // int result = num1 % num2;
+        int result3 = num1 + num2;
+        int result4 = num1 - num2;
+        int result5 = num1 * num2;
+        int result6 = num1 / num2;
+        int result7 = num1 % num2;
+
+        System.out.println(result3);
+        System.out.println(result4);
+        System.out.println(result5);
+        System.out.println(result6);
+        System.out.println(result7);
 
         // System.out.println(num1 + num2);
         // System.out.println(num1 - num2);

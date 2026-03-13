@@ -17,7 +17,7 @@ public class LogicalOperators {
         // T > F = T
         // T > T = T
         System.out.println(!(num1 > num2));
-        // In java it works on convert the value you say. with the help of thsi opertors you 
+        // In java it works on convert the value you say. with the help of this opertors. 
         // Like it convert (False to True and True to False).
         // Like if you have True and you want print False, than you apply a (Not operation).
         // Like if you have False and you want print True, than you apply a (Not operation).

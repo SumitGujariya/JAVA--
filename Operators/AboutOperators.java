@@ -15,14 +15,15 @@ The operators are symbols that are used to do operation over something. There ar
    multiplication assignment (*=),
    division assignment (/=)
 
-3. Relational operators: The relational operators are used to compare the things in the programming language and often gives result in boolean datatype. These include
-   is equals to (==) (It is different from assignment operator equals to (=) ),
+3. Relational operators: The relational operators are used to compare the things in the programming language and often gives result in boolean datatype. 
+   These include is equals to (==) (It is different from assignment operator equals to (=) ),
    less than (<),
    greater than (>),
    less than equals to (<=),
    greater than equals to (>=)
 
-4. Logical operators: The logical operators are the operators which are used to connect two or more conditions. This include
+4. Logical operators: The logical operators are the operators which are used to connect two or more conditions.
+   This include
    and (&&): only true when both conditions are true,
    or (||): only true if one of either condition is true,
    not (!): if one condition is true make it false and vice-versa.
