@@ -23,7 +23,7 @@ The type of value (data) which is used in a program. There is a two types of dat
     For class and interface, go to Object Oriented Programming module.
 
     Data types are divided into two groups:
-    Primitive data types - includes byte, short, int, long, float, double, boolean and char
+    Primitive data types - includes byte, short, int, long, float, double, boolean and char.
     Non-primitive data types - such as String, Arrays and Classes.
 */
 
@@ -43,24 +43,40 @@ The type of value (data) which is used in a program. There is a two types of dat
 
 
 
-//         **************   Primitive DataTypes   *************
+//         *************   Primitive DataTypes   *************
 
 public class PrimitiveDatatypes {
     public static void main(String[] args) {
     // For all those datatypes are explain in starting the file.
         byte by = 1;
+        System.out.println(by);
+
         short sh = 197;
+        System.out.println(sh);
+
         int it = 2009;
+        System.out.println(it);
+
         long ln = 200945678L;
+        System.out.println(ln);
 
         float ft = 3.14F; // The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles.
-        double db = 3.141597845; // The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles.
+        System.out.println(ft);
 
-        char ch1 = 'a'; // In char you only use single quote to store the value it will not allow to a double inverted comaa.
+        double db = 3.141597845; // The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles.
+        System.out.println(db);
+
+        char ch1 = 'a'; // In char you only use single quote to store the value it will not allow to a double inverted coma('').
+        System.out.println(ch1);
+
         char ch2 = '1'; // As 1 is inside single inverted comma, hence it will be treated as character. It will treated as a literals
+        System.out.println(ch2);
 
         boolean tru = true; // Stores true or false values
+        System.out.println(tru);
+        
         boolean fal = false; // Stores true or false values
+        System.out.println(fal);
     }
 }
 
