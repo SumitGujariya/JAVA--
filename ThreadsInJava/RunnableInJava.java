@@ -49,7 +49,7 @@ public class RunnableInJava {
         // obj1.setPriority(Thread.MIN_PRIORITY);
         // obj1.setPriority(Thread.NORM_PRIORITY);
 
-        // You can also fix your prioritiy with the help (setPriority). How much Priority give it to your task.
+        // You can also fix your prioritiy with the help (setPriority), How much Priority give it to your task.
         // System.out.println(obj1.setPriority(2));
 
         // Here's you call your method with the help of Start Method. start method belongs to the thread class, Otherwise it's not executing the method you pass in class.
@@ -60,7 +60,7 @@ public class RunnableInJava {
         Thread t1 = new Thread(obj1); // And in this constructor we pass the object.
         Thread t2 = new Thread(obj2);
         
-        t1.start(); // Here's the start belongs to the thread class. we call with the help of (t1.).
+        t1.start(); // Here's the start belongs to the thread class, we call with the help of (t1.).
         t2.start();
         
     }
