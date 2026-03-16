@@ -38,7 +38,7 @@ class B implements Runnable {
 public class RunnableInJava {
     public static void main(String[] args) {
 
-        Runnable obj1 = new A(); // This runnable is constructor of the object and this runnable is method which we calling in this method. Because obj1 is also runnable object.
+        Runnable obj1 = new A(); // This runnable is constructor of the object and this runnable is method which we calling in this method, Because obj1 is also runnable object.
         Runnable obj2 = new B();
 
         // We have concept of threads priority its range 1-10 1 is lowset and 10 is highest and the default is 5.
