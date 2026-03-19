@@ -16,7 +16,8 @@ class A implements Runnable {
             // threads.
             try {
                 Thread.sleep(2);
-            } catch (InterruptedException e) { e.printStackTrace();
+            } catch (InterruptedException e) { 
+                e.printStackTrace();
             }
         }
     }
@@ -29,7 +30,8 @@ class B implements Runnable {
             System.out.println("hello");
             try {
                 Thread.sleep(2);
-            } catch (InterruptedException e) { e.printStackTrace();
+            } catch (InterruptedException e) { 
+                e.printStackTrace();
             }
         }
     }

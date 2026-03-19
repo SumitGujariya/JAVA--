@@ -12,7 +12,7 @@ public class ExceThrow {
         } 
         catch (ArithmeticException e) { // Here's you Exceptioin catch the error. which error you throw with the help of throw keyword.
             j = 18 / 1;
-            System.out.println("You are not in you limit..." + e );
+            System.out.println("You are not in your limit..." + e );
         } 
         catch (Exception e) {
             System.out.println("something went wrong...");

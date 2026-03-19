@@ -34,6 +34,7 @@ nextShort()	    Reads a short value from the user.
 // Here's example using diffrent method in single user input.
 public class ScannerInJava {
     public static void main(String[] args) {
+      
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter name, age and salary:");
         

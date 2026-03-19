@@ -28,16 +28,12 @@ class Cars { // This is we called class
     // This is first method to call the functions.
     // You called a properties with the help of function.
     public void running() {
-        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a
-                                                                                                   // multiple
-                                                                                                   // properties in
-                                                                                                   // single line.
+        System.out.println("this car is running as fast as you think " + brand + colors + releas); // You called a multiple properties in single line.
     }
 
     // This is second method.
     public void pappujii() {
-        System.out.println(this.colors); // You also called a your properties with the help of (this.method) whatever
-                                         // your method name is depend on you how you descibe them.
+        System.out.println(this.colors); // You also called a your properties with the help of (this.method) whatever your method name is depend on you how you descibe them.
         System.out.println(this.brand);
         System.out.println(this.releas);
     }
@@ -50,7 +46,7 @@ class Cars { // This is we called class
 
 // Note You always write a main function inside the public class.
 // This class name is define your .java file name.
-public class Oops {
+public class OOPS {
     public static void main(String args[]) {
         // Remember the name of the datatype is same as your class name (Ex:- Cars).
         // You always write your object of class is inside the function.
